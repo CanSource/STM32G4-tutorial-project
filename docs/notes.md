@@ -38,7 +38,42 @@
 
 
 3. crystal
+    [hash](6430cd6cd9e619b09895460b4084fa307ed90d1f)
+    4 - 48 MHz high-speed oscillator with external crystal or ceramic resonator (HSE).
+    It can supply clock to system PLL. The HSE can also be configured in bypass mode for an external clock.
+
+    4 pad crystal, the 2 extra pads connected to ground are for mounting and well as case grounding for emi protection
+
    1. crystal load caps
+    $$
+        C_{\text{load}} = \frac{C_{L1} \times C_{L2}}{C_{L1} + C_{L2}} + C_{\text{stray}}
+    $$
+    $$
+        C_{\text{stray}} \approx5\text{pf}
+    $$
+    $$
+        C_{L1} = C_{L2} 
+    $$
+
+    - C_L : external load capacitances
+    - R_EXT : external resistor to limit the inverter output current
+    - C_load : crystal load
+    - C_stray : stray capacitance, sum of the device pins and PCB trace capacitances
+    1. [dropdown] extra clock src
+       low power clock srcs for real time clock (RTC)
+       32.768 kHz low-speed oscillator with external crystal (LSE)
+
+    2. [dropdown] feedback values
+    [appnote](https://www.st.com/resource/en/application_note/cd00221665-oscillator-design-guide-for-stm8af-al-s-stm32-mcus-and-mpus-stmicroelectronics.pdf)
+
+    | freq | feedback resitor range |
+    | ---- | ---------------------- |
+    | 32.768 kHz  | 10 to 25 MΩ |
+    | 1 MHz | 5 to 10 MΩ|
+    | 10 MHz | 1 to 5 MΩ|
+    | 20 MHz | 470 kΩ to 5 MΩ|
+
+
 
 4. [dropdown] bead selection
 
