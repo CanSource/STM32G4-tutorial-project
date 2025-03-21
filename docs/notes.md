@@ -14,6 +14,7 @@
 ### supporting comps
 
 2. decoupling caps
+    [hash](98fe0d07d26a1c95464953851bdf675cf1a5116f)
     [datasheet](https://www.st.com/resource/en/datasheet/stm32g431cb.pdf) section 5.1.6 powersupply scheme p.g. 68
 
     jumper on vbat for optional single cell battery support
