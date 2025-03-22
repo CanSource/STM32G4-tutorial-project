@@ -129,7 +129,7 @@
         can be used instead of stlink but this should only be used when space is a constraint
 
 7. usb
-
+    [hash](fe8af82cef5476babfd91a4354a0ed6b2c7fa221)
     usb type c may sound like just a connector, but it actually provides additional information to what ever device it is plugged in to
 
     reasons for usb: 
