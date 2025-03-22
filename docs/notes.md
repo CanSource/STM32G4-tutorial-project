@@ -165,12 +165,31 @@
          [appnote](https://www.st.com/resource/en/user_manual/dm00598101-managing-usb-power-delivery-systems-with-stm32-microcontrollers-stmicroelectronics.pdf)
 
 8. power
-   
-   
+    [hash](11b3976d7381e1a3e6c8fd2af3c38065487dfe71)
+    schematic is getting crowded, introduce hierarchical sheets here
+
+    usb circuit now goes in here because it related to power
+
+    or-ing circuit to allow both usb and swd header to be used at the same time
+    
+    jumper so if the programmer wants it to use the 5v or 3.3v rails as a v sense line it still can
+    
    1. voltage reg
+        az1117-3.3 because its so ubiquities and provides enough voltage for anything i want 
    2. decoupling caps
+        alu caps because bigger bulk decoupling
    3. [dropdown] temp calcs
-   4. [dropdown] noise rejection
+        work out max current draw and avg current draw
+        $$
+        P_{\text{draw}} = IV
+        $$
+        find Thermal Resistance on datasheet
+        $$
+        \theta_{JA} = \frac{C^{\circ}}{W}
+        $$
+        $$
+            P_{\text{draw}} \theta_{JA} = C^{\circ}_\text{rise} 
+        $$
 
 ### prefs
 9. leds
