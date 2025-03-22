@@ -130,12 +130,43 @@
 
 7. usb
 
+    usb type c may sound like just a connector, but it actually provides additional information to what ever device it is plugged in to
+
+    reasons for usb: 
+    power
+    progamming
+    serial output
+
+    0 ohm jumper between shield and gnd
+
+    usb choice
+
+    has internal termination resistors
+
    1. micro usb
+    simple to implement, only need the connector
+    no one has thing that have usb a ports now and no one own a type c to micro cable
    2. usb type c
-      1. [dropdowns] support circuits
-      2. [dropdowns] cc pulldowns
+      stm32G4 support usb c natively as well as pd
+      will use provided pd input on the stm but will also show how to setup usb if these arnt available 
+
+      14 pin version 
+      hides unused pins 
+      cc_x used for power negotiation
+      
+      10uf decoupling per usb spec
+
+      power in should be 5v @ 1.5A to 3A
+
+      1. [dropdowns] cc pulldowns
+        [change if you want more current](https://www.microchip.com/content/dam/mchp/documents/OTH/ApplicationNotes/ApplicationNotes/00001953A.pdf)
+        5.1k pulldowns
+      2. [dropdowns] pd
+         [appnote](https://www.st.com/resource/en/user_manual/dm00598101-managing-usb-power-delivery-systems-with-stm32-microcontrollers-stmicroelectronics.pdf)
 
 8. power
+   
+   
    1. voltage reg
    2. decoupling caps
    3. [dropdown] temp calcs
@@ -152,3 +183,4 @@
 
 11. pin headers
 
+12. esd & protection circuits
