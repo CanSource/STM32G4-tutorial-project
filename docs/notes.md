@@ -76,6 +76,7 @@
 
 
 4. [dropdown] bead selection
+    [hash](ed590af96a158ff80046151752b1db2daed66063)
     A bead should not actually be necessary for this circuit its more for demonstration purposes.
     you want a bead to operator within its restive zone
     a bead should not be on digital power supplies due to the switching of downstream circuits causes unnecessary power draw.
