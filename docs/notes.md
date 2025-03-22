@@ -107,11 +107,29 @@
       100n as sped'ed by the datasheet
 
 6. programming
+    [hash](1d1887cbb8e0dd7f1c3b1ad92e817dd7263f4d1d)
+    [programming app note](https://www.st.com/resource/en/application_note/dm00354244-stm32-microcontroller-debug-toolbox-stmicroelectronics.pdf)
+    
+    swd because its what the cheap stlinks support
+    SWO to allow debug printing
+
+    swd has clock, and data
+
    1. boot button
-   2. 10 pin stlink
+    [hash](c9936e445c0efe0e008e8a08ca916a944b0e9a81)
+    [datasheet](https://stm32-base.org/guides/connecting-your-debugger.html)
+    stlink clone
+
+    gnd for running program
+    vcc for booting in to programming mode
+
+   2. 10 pin idc stlink
+        this will be used as it easy to use with cheap knock off stlink
    3. 6 pin plug o'nails
+        can be used instead of stlink but this should only be used when space is a constraint
 
 7. usb
+
    1. micro usb
    2. usb type c
       1. [dropdowns] support circuits
@@ -134,24 +152,3 @@
 
 11. pin headers
 
-
-### comp selc supply links
-
-#### caps
-- [100n 6.3v VDD ceramic](https://www.digikey.co.nz/en/products/detail/kemet/C0603C104K9PACTU/8572410)
-- [4.7u 6.3v VDD ceramic](https://www.digikey.co.nz/en/products/detail/kemet/C0603C475K9PACTU/754744)
-- [100n 6.3v VDDA ceramic](https://www.digikey.co.nz/en/products/detail/kemet/C0603C104K9RACTU/2199778)
-- [1u 6.3v VDDA ceramic](https://www.digikey.co.nz/en/products/detail/kemet/C0603C105K9RACTU/2199792)
-- [10n 6.3v VDDA ceramic](https://www.digikey.co.nz/en/products/detail/kemet/C0603C103K9RACTU/2199760)
-
-#### resistors
-
-#### inductors
-- [220ohm @ 100MHz](https://www.digikey.co.nz/en/products/detail/bourns-inc/MH1608-221Y/2563313)
-
-#### leds
-- [Orange](https://www.digikey.co.nz/en/products/detail/w%C3%BCrth-elektronik/150060AS75000/10468254)
-- [Red](https://www.digikey.co.nz/en/products/detail/w%C3%BCrth-elektronik/150060RS75000/4489901)
-- [Green](https://www.digikey.co.nz/en/products/detail/w%C3%BCrth-elektronik/150060VS75000/4489906)
-- [Blue](https://www.digikey.co.nz/en/products/detail/w%C3%BCrth-elektronik/150060BS75000/4489895)
-- [Yellow](https://www.digikey.co.nz/en/products/detail/w%C3%BCrth-elektronik/150060YS75000/4489909)
