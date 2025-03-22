@@ -39,7 +39,9 @@
 
 3. crystal
     [hash](6430cd6cd9e619b09895460b4084fa307ed90d1f)
-    4 - 48 MHz high-speed oscillator with external crystal or ceramic resonator (HSE).
+    [datasheet](https://www.st.com/resource/en/datasheet/stm32g431cb.pdf)
+    section 5.3.7 External clock source characteristics p.g. 100
+    4 - 48 MHz high-speed oscillator with external crystal or ceramic resonator (HSE). table 40 in datasheet
     It can supply clock to system PLL. The HSE can also be configured in bypass mode for an external clock.
 
     4 pad crystal, the 2 extra pads connected to ground are for mounting and well as case grounding for emi protection
@@ -85,12 +87,29 @@
 
 ### input
 5. reset
+    [hash](ca8ece5d9ce18528ab4d70325f88380fb582dfc1)
+    [datasheet](https://www.st.com/resource/en/datasheet/stm32g431cb.pdf)
+    section 5.3.15 NRST pin characteristics p.g. 117
+
+    talk about sheet label
+   
+    the reset button as you know resets the micro controller program, as well as current memory 
+    
+    there is an internal pull up within the mcu, no need for an external pull up.
+
+    led to show that the reset button has be pressed, is completely optional
+
    1. button choice
-   2. lpf cap 
+        the best button you can use is the button you have on hand or from a kit, buttons are expensive. make it small
+
+   2. lpf cap
+      cap should be place as close to the mcu as possible
+      100n as sped'ed by the datasheet
 
 6. programming
-   1. 10 pin stlink
-   2. 6 pin plug o'nails
+   1. boot button
+   2. 10 pin stlink
+   3. 6 pin plug o'nails
 
 7. usb
    1. micro usb
@@ -114,3 +133,25 @@
     3. ardunio ultra sonic one
 
 11. pin headers
+
+
+### comp selc supply links
+
+#### caps
+- [100n 6.3v VDD ceramic](https://www.digikey.co.nz/en/products/detail/kemet/C0603C104K9PACTU/8572410)
+- [4.7u 6.3v VDD ceramic](https://www.digikey.co.nz/en/products/detail/kemet/C0603C475K9PACTU/754744)
+- [100n 6.3v VDDA ceramic](https://www.digikey.co.nz/en/products/detail/kemet/C0603C104K9RACTU/2199778)
+- [1u 6.3v VDDA ceramic](https://www.digikey.co.nz/en/products/detail/kemet/C0603C105K9RACTU/2199792)
+- [10n 6.3v VDDA ceramic](https://www.digikey.co.nz/en/products/detail/kemet/C0603C103K9RACTU/2199760)
+
+#### resistors
+
+#### inductors
+- [220ohm @ 100MHz](https://www.digikey.co.nz/en/products/detail/bourns-inc/MH1608-221Y/2563313)
+
+#### leds
+- [Orange](https://www.digikey.co.nz/en/products/detail/w%C3%BCrth-elektronik/150060AS75000/10468254)
+- [Red](https://www.digikey.co.nz/en/products/detail/w%C3%BCrth-elektronik/150060RS75000/4489901)
+- [Green](https://www.digikey.co.nz/en/products/detail/w%C3%BCrth-elektronik/150060VS75000/4489906)
+- [Blue](https://www.digikey.co.nz/en/products/detail/w%C3%BCrth-elektronik/150060BS75000/4489895)
+- [Yellow](https://www.digikey.co.nz/en/products/detail/w%C3%BCrth-elektronik/150060YS75000/4489909)
