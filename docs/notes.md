@@ -215,9 +215,10 @@
     1. led resistors
 
 10. distance sensor
-    1. sharp sensor
-    2. photoresistor
-    3. ardunio ultra sonic one
+    1. [sharp sensor](https://www.sparkfun.com/infrared-proximity-sensor-sharp-gp2y0a21yk.html)
+    2. [photoresistor](https://www.sparkfun.com/mini-photocell.html)
+    3. [ardunio ultra sonic one / HC-SR04](https://www.sparkfun.com/ultrasonic-distance-sensor-hc-sr04.html)
+    4. [i2c sensor](https://www.adafruit.com/product/4742) 
 
 11. pin headers
 
