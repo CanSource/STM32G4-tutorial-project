@@ -1,0 +1,64 @@
+# 📄 BOM for stm32-tutorial-project_bill_of_material 📄
+
+report created at 09:09:34.630509 on 23-03-2025.
+
+stm32-tutorial-project_bill_of_material has a total of 55 parts with a cost of $0.
+
+| Reference | Value | Quantity | part number | cost |
+| --------- | ----- | -------- | ----------- | ---- |
+| C1 | 100n | 1 |  | $0 |
+| C2 | 1u | 1 |  | $0 |
+| C3 | 4.7u | 1 |  | $0 |
+| C4 | 100n | 1 |  | $0 |
+| C5 | 100n | 1 |  | $0 |
+| C6 | 100n | 1 |  | $0 |
+| C7 | 10n | 1 |  | $0 |
+| C8 | 1u | 1 |  | $0 |
+| C9 | CL1 | 1 |  | $0 |
+| C10 | CL2 | 1 |  | $0 |
+| C11 | 100n | 1 |  | $0 |
+| C12 | 10u | 1 |  | $0 |
+| C13 | 10u | 1 |  | $0 |
+| C14 | 22u | 1 |  | $0 |
+| D1 | LED | 1 |  | $0 |
+| D2 | LED | 1 |  | $0 |
+| D3 | D_Schottky | 1 |  | $0 |
+| D4 | D_Schottky | 1 |  | $0 |
+| D5 | LED | 1 |  | $0 |
+| D6 | LED | 1 |  | $0 |
+| D7 | LED | 1 |  | $0 |
+| D8 | LED | 1 |  | $0 |
+| D9 | LED | 1 |  | $0 |
+| D10 | LED | 1 |  | $0 |
+| FB1 | 220 OHM | 1 | Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder | $0 |
+| FB2 | 220 OHM | 1 | Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder | $0 |
+| J1 | USB_C_Receptacle_USB2.0_14P | 1 |  | $0 |
+| J2 | 10pin IDC SWD | 1 | Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical | $0 |
+| JP1 | VBAT_SLEC | 1 |  | $0 |
+| JP2 | 5V_sense | 1 |  | $0 |
+| JP3 | Schottky_bypass | 1 |  | $0 |
+| Q1 | NPN | 1 |  | $0 |
+| Q3 | PNP | 1 |  | $0 |
+| R1 | EXT | 1 |  | $0 |
+| R2 | 500 | 1 |  | $0 |
+| R3 | 10k | 1 |  | $0 |
+| R4 | 500 | 1 |  | $0 |
+| R5 | 0 | 1 |  | $0 |
+| R6 | 5.1k | 1 |  | $0 |
+| R7 | 5.1k | 1 |  | $0 |
+| R8 | 500 | 1 |  | $0 |
+| R9 | 500 | 1 |  | $0 |
+| R10 | 500 | 1 |  | $0 |
+| R11 | 500 | 1 |  | $0 |
+| R12 | 500 | 1 |  | $0 |
+| R13 | 1k | 1 |  | $0 |
+| R14 | 1k | 1 |  | $0 |
+| R15 | 500 | 1 |  | $0 |
+| R16 | 1k | 1 |  | $0 |
+| R17 | 1k | 1 |  | $0 |
+| SW1 | SW_Push | 1 |  | $0 |
+| SW2 | SW_Push_SPDT | 1 |  | $0 |
+| U1 | STM32G431CBTx | 1 | Package_QFP:LQFP-48_7x7mm_P0.5mm | $0 |
+| U2 | AZ1117-3.3 | 1 |  | $0 |
+| XMHz? | Crystal_GND23 | 1 |  | $0 |
+|  | total | 55 | total | $0 |
