@@ -3598,6 +3598,12 @@
 		(uuid "a8ee34f4-9682-4425-8788-168b5c89bbbe")
 	)
 	(junction
+		(at 114.3 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfa5a74c-1bb7-4f67-96ec-0462fcea6fd7")
+	)
+	(junction
 		(at 83.82 34.925)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3608,6 +3614,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd4cd7d2-d05e-4a1c-8e8b-4bb8536a68cc")
+	)
+	(junction
+		(at 116.84 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0afa2ad-80e4-4436-8104-8d5be7f6a615")
 	)
 	(junction
 		(at 19.685 177.8)
@@ -3706,6 +3718,16 @@
 			(type default)
 		)
 		(uuid "1132b7e3-9049-479b-9165-9ca6248ee17a")
+	)
+	(wire
+		(pts
+			(xy 116.84 60.96) (xy 119.38 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1904a1d7-92fa-42d6-945c-4f87cc898644")
 	)
 	(wire
 		(pts
@@ -4116,6 +4138,16 @@
 			(type default)
 		)
 		(uuid "84fed952-0b57-4e6c-9f78-a16127c72bad")
+	)
+	(wire
+		(pts
+			(xy 114.3 60.96) (xy 116.84 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "857056ff-af2c-4b17-bc4f-887395ee6648")
 	)
 	(wire
 		(pts
@@ -4578,6 +4610,30 @@
 		(uuid "fdd1e834-e3bf-4086-bda4-a595e5dd9474")
 	)
 	(rectangle
+		(start 118.11 34.925)
+		(end 142.875 44.45)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 29c44bcd-9a5a-4c7c-b0a1-db721575c8e1)
+	)
+	(rectangle
+		(start 41.275 34.925)
+		(end 63.5 44.45)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2b0e33af-50ac-4960-a03d-a82a6dcae841)
+	)
+	(rectangle
 		(start 101.6 153.67)
 		(end 170.18 195.58)
 		(stroke
@@ -4766,6 +4822,16 @@
 		)
 		(uuid "6bc5ae10-dfcd-48d8-8aef-35f18ba8ccc1")
 	)
+	(text "OPTIONAL"
+		(exclude_from_sim no)
+		(at 137.795 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9493f52b-c1aa-4808-b304-5b6ede98de11")
+	)
 	(text "1.55 - 3.6 V"
 		(exclude_from_sim no)
 		(at 86.995 54.61 0)
@@ -4786,6 +4852,16 @@
 			(justify left)
 		)
 		(uuid "981868fa-1d45-4d9d-bc57-118e688c8e2b")
+	)
+	(text "OPTIONAL"
+		(exclude_from_sim no)
+		(at 46.355 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "abdf666f-ee4b-44d9-b174-5bfb1cc25731")
 	)
 	(text "CL : external load capacitances\nR_EXT : external resistor \n	to limit the inverter output current\nC_load : crystal load\nC_stray : stray capacitance, \n	sum of the device pins and PCB trace capacitances"
 		(exclude_from_sim no)
@@ -7881,7 +7957,7 @@
 		(dnp no)
 		(uuid "c4aa46be-2d86-4369-9ae7-a4cae2e6cdf5")
 		(property "Reference" "FB2"
-			(at 46.355 37.465 0)
+			(at 52.705 37.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7890,7 +7966,7 @@
 			)
 		)
 		(property "Value" "220 OHM"
-			(at 46.355 40.005 0)
+			(at 47.625 40.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7935,7 +8011,7 @@
 			)
 		)
 		(property "Frequency" "100 MHz"
-			(at 50.8 42.5959 0)
+			(at 52.07 42.5959 0)
 			(effects
 				(font
 					(size 1.27 1.27)
