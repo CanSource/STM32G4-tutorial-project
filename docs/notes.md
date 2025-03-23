@@ -143,6 +143,8 @@
 
     has internal termination resistors
 
+    power out at a low powered hub is 4.4 V to 5.50 V.
+
    1. micro usb
     simple to implement, only need the connector
     no one has thing that have usb a ports now and no one own a type c to micro cable
@@ -153,6 +155,8 @@
       14 pin version 
       hides unused pins 
       cc_x used for power negotiation
+
+      forgot in hash but cc resistors should be DNP
       
       10uf decoupling per usb spec
 
@@ -165,17 +169,26 @@
          [appnote](https://www.st.com/resource/en/user_manual/dm00598101-managing-usb-power-delivery-systems-with-stm32-microcontrollers-stmicroelectronics.pdf)
 
 8. power
-    [hash](11b3976d7381e1a3e6c8fd2af3c38065487dfe71)
+    [hash](b36409520eb05e74d2c82bd2b8d01cf1bc5a77b1)
     schematic is getting crowded, introduce hierarchical sheets here
 
     usb circuit now goes in here because it related to power
 
     or-ing circuit to allow both usb and swd header to be used at the same time
+
+    min power in = 4.4v
     
     jumper so if the programmer wants it to use the 5v or 3.3v rails as a v sense line it still can
     
-   1. voltage reg
-        az1117-3.3 because its so ubiquities and provides enough voltage for anything i want 
+    optional leds for power status
+
+    az1117-3.3 because its so ubiquities and provides enough voltage for anything you want to do
+    v_drop = 1.2v
+    v_out = 3.3v
+    v_in_min = 3.3 + 1.2 = 4.5v
+    v_drop_diode ~= 0.5v assuming input = 5v
+    i will ignore the fact that usb can output voltage that is that low
+
    2. decoupling caps
         alu caps because bigger bulk decoupling
    3. [dropdown] temp calcs
@@ -193,6 +206,12 @@
 
 ### prefs
 9. leds
+    [datasheet](https://www.st.com/resource/en/datasheet/stm32g431cb.pdf) section 5.1.6 power supply scheme p.g. 68
+    
+
+    led 
+
+
     1. led resistors
 
 10. distance sensor
@@ -202,4 +221,8 @@
 
 11. pin headers
 
-12. esd & protection circuits
+### extras 
+
+12. ESD
+13. protection circuits
+14. test points / jumpers
