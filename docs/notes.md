@@ -251,13 +251,10 @@
     both interfaces have 3.3v and gnd, digital has select for 5v since the HC-SR04 wants it, pins are 5v tolerance tho
 
 11. pin headers
-
+    [hash](381e4038692ab114b09633142ac0fe56978363f7)
     2.54mm pitch for standard dupont connectors
-
     expose everything
-
-
-
+    added extra headers for gnd and 3.3v
 
 ### extras 
 
