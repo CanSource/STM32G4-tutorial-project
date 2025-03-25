@@ -206,21 +206,58 @@
 
 ### prefs
 9. leds
-    [datasheet](https://www.st.com/resource/en/datasheet/stm32g431cb.pdf) section 5.1.6 power supply scheme p.g. 68
-    
+    [hash](ae1e725e1f196119e2582571466d08307c622540)
+    4 led configs
 
-    led 
+    active low direct drive
+    active high direct drive
+    use these for basic, debug and status leds
 
+    active low BJT drive
+    active high BJT drive
+    if you want to use more or higher power leds use these
 
     1. led resistors
+        forward voltage = V_f
+        Luminous Intensity vs. Forward Current graph
+        $$
+            V_f = I_f R
+        $$
+        $$
+            \frac{V_f}{I_f} = R
+        $$
+        pick a Luminous Intensity and find R
+
+        honestly 90% of the time this doesnt matter, just hoon on a 500ohm and accept the brightness of the led, if you want brighter use a smaller resistor and dimmer a bigger resistor
 
 10. distance sensor
+    [hash](8c9ae6b2d3eeb6c376ba404fffb7075c1cead87e)
+    analog
+    [G4 opamp datasheet](https://www.st.com/resource/en/application_note/dm00605707-operational-amplifier-opamp-usage-in-stm32g4-series-stmicroelectronics.pdf)
+    fig 8 p.g. 9
+    can use adc normally but connect these to internal opamp to show a more complex opamp configs, allowing for pga to be used and extra gain to be added before going to the adc
+    this is a stm32G4 feature and that should be explained. but its good to show that some mcus have extra features
+    PA1-3 fits all these requirements
     1. [sharp sensor](https://www.sparkfun.com/infrared-proximity-sensor-sharp-gp2y0a21yk.html)
+    
     2. [photoresistor](https://www.sparkfun.com/mini-photocell.html)
+    
+    digital
+    PA8-9 are the i2c2 interface
+    optional pullups for use with the i2c sensor, and allowing use for the hc-sr04
     3. [ardunio ultra sonic one / HC-SR04](https://www.sparkfun.com/ultrasonic-distance-sensor-hc-sr04.html)
     4. [i2c sensor](https://www.adafruit.com/product/4742) 
 
+    both interfaces have 3.3v and gnd, digital has select for 5v since the HC-SR04 wants it, pins are 5v tolerance tho
+
 11. pin headers
+
+    2.54mm pitch for standard dupont connectors
+
+    expose everything
+
+
+
 
 ### extras 
 
