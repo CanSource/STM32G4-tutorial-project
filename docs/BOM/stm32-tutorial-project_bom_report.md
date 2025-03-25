@@ -1,8 +1,8 @@
 # 📄 BOM for stm32-tutorial-project_bill_of_material 📄
 
-report created at 09:09:34.630509 on 23-03-2025.
+report created at 09:56:57.220327 on 25-03-2025.
 
-stm32-tutorial-project_bill_of_material has a total of 55 parts with a cost of $0.
+stm32-tutorial-project_bill_of_material has a total of 65 parts with a cost of $0.
 
 | Reference | Value | Quantity | part number | cost |
 | --------- | ----- | -------- | ----------- | ---- |
@@ -30,13 +30,21 @@ stm32-tutorial-project_bill_of_material has a total of 55 parts with a cost of $
 | D8 | LED | 1 |  | $0 |
 | D9 | LED | 1 |  | $0 |
 | D10 | LED | 1 |  | $0 |
+| D11 | SP0504BAHT | 1 | Package_TO_SOT_SMD:SOT-23-5 | $0 |
+| D12 | PTVS7V5Z1USK | 1 | Diode_SMD:Nexperia_DSN1608-2_1.6x0.8mm | $0 |
 | FB1 | 220 OHM | 1 | Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder | $0 |
 | FB2 | 220 OHM | 1 | Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder | $0 |
 | J1 | USB_C_Receptacle_USB2.0_14P | 1 |  | $0 |
 | J2 | 10pin IDC SWD | 1 | Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical | $0 |
+| J3 | Conn_01x04 | 1 | 4ms_Connector:Pins_1x04_2.54mm_TH_SWD | $0 |
+| J4 | Conn_01x04 | 1 | 4ms_Connector:Pins_1x04_2.54mm_TH_SWD | $0 |
+| J5 | Conn_01x13 | 1 |  | $0 |
+| J6 | Conn_01x13 | 1 |  | $0 |
 | JP1 | VBAT_SLEC | 1 |  | $0 |
 | JP2 | 5V_sense | 1 |  | $0 |
 | JP3 | Schottky_bypass | 1 |  | $0 |
+| JP4 | 5V_SLEC | 1 |  | $0 |
+| JP5 | I2C_PULL_UPS_EN | 1 |  | $0 |
 | Q1 | NPN | 1 |  | $0 |
 | Q3 | PNP | 1 |  | $0 |
 | R1 | EXT | 1 |  | $0 |
@@ -56,9 +64,11 @@ stm32-tutorial-project_bill_of_material has a total of 55 parts with a cost of $
 | R15 | 500 | 1 |  | $0 |
 | R16 | 1k | 1 |  | $0 |
 | R17 | 1k | 1 |  | $0 |
+| R18 | 4.7k | 1 |  | $0 |
+| R19 | 4.7k | 1 |  | $0 |
 | SW1 | SW_Push | 1 |  | $0 |
 | SW2 | SW_Push_SPDT | 1 |  | $0 |
 | U1 | STM32G431CBTx | 1 | Package_QFP:LQFP-48_7x7mm_P0.5mm | $0 |
 | U2 | AZ1117-3.3 | 1 |  | $0 |
 | XMHz? | Crystal_GND23 | 1 |  | $0 |
-|  | total | 55 | total | $0 |
+|  | total | 65 | total | $0 |
