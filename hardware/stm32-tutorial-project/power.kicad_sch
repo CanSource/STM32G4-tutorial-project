@@ -3427,7 +3427,6 @@
 	(hierarchical_label "D+"
 		(shape input)
 		(at 100.965 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3439,7 +3438,6 @@
 	(hierarchical_label "USBPD_CC1"
 		(shape input)
 		(at 123.825 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3451,7 +3449,6 @@
 	(hierarchical_label "USBPD_CC2"
 		(shape input)
 		(at 123.825 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3463,7 +3460,6 @@
 	(hierarchical_label "D-"
 		(shape input)
 		(at 100.965 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
