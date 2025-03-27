@@ -1,6 +1,6 @@
 # 📄 BOM for stm32-tutorial-project_bill_of_material 📄
 
-report created at 09:56:57.220327 on 25-03-2025.
+report created at 02:14:14.087686 on 27-03-2025.
 
 stm32-tutorial-project_bill_of_material has a total of 65 parts with a cost of $0.
 
@@ -62,8 +62,8 @@ stm32-tutorial-project_bill_of_material has a total of 65 parts with a cost of $
 | R13 | 1k | 1 |  | $0 |
 | R14 | 1k | 1 |  | $0 |
 | R15 | 500 | 1 |  | $0 |
-| R16 | 1k | 1 |  | $0 |
-| R17 | 1k | 1 |  | $0 |
+| R16 | 10k | 1 |  | $0 |
+| R17 | 10k | 1 |  | $0 |
 | R18 | 4.7k | 1 |  | $0 |
 | R19 | 4.7k | 1 |  | $0 |
 | SW1 | SW_Push | 1 |  | $0 |
