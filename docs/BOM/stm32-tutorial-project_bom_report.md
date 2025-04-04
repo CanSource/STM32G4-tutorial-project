@@ -1,8 +1,8 @@
 # 📄 BOM for stm32-tutorial-project_bill_of_material 📄
 
-report created at 06:46:12.026170 on 04-04-2025.
+report created at 08:35:41.682309 on 04-04-2025.
 
-stm32-tutorial-project_bill_of_material has a total of 66 parts with a cost of $0.
+stm32-tutorial-project_bill_of_material has a total of 72 parts with a cost of $0.
 
 | Reference | Value | Quantity | part number | cost |
 | --------- | ----- | -------- | ----------- | ---- |
@@ -46,6 +46,8 @@ stm32-tutorial-project_bill_of_material has a total of 66 parts with a cost of $
 | JP3 | Schottky_bypass | 1 |  | $0 |
 | JP4 | 5V_SLEC | 1 |  | $0 |
 | JP5 | I2C_PULL_UPS_EN | 1 |  | $0 |
+| JP6 | REG_OUT | 1 |  | $0 |
+| JP7 | REG_IN | 1 |  | $0 |
 | Q1 | NPN | 1 |  | $0 |
 | Q3 | PNP | 1 |  | $0 |
 | R1 | EXT | 1 |  | $0 |
@@ -69,7 +71,11 @@ stm32-tutorial-project_bill_of_material has a total of 66 parts with a cost of $
 | R19 | 4.7k | 1 |  | $0 |
 | SW1 | SW_Push | 1 |  | $0 |
 | SW2 | SW_Push_SPDT | 1 |  | $0 |
+| TP1 | DIGITAL_IO_1 | 1 |  | $0 |
+| TP2 | DIGITAL_IO_2 | 1 |  | $0 |
+| TP3 | VBUS | 1 |  | $0 |
+| TP4 | 5V | 1 |  | $0 |
 | U1 | STM32G431CBTx | 1 | Package_QFP:LQFP-48_7x7mm_P0.5mm | $0 |
 | U2 | AZ1117-3.3 | 1 |  | $0 |
 | XMHz? | Crystal_GND23 | 1 |  | $0 |
-|  | total | 66 | total | $0 |
+|  | total | 72 | total | $0 |
