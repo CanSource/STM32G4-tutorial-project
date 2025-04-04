@@ -267,7 +267,7 @@
     p = iv
     3.3w = 5*i
     3.3/5 = i
-    
-
 
 14. test points / jumpers
+    test point anything that cant be easily touched with a probe
+    jumper power inputs and outputs
