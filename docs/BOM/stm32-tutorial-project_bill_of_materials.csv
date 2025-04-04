@@ -70,4 +70,4 @@
 "TP4","5V","","1",""
 "U1","STM32G431CBTx","Package_QFP:LQFP-48_7x7mm_P0.5mm","1",""
 "U2","AZ1117-3.3","","1",""
-"XMHz?","Crystal_GND23","","1",""
+"X1","Crystal_GND23","","1",""

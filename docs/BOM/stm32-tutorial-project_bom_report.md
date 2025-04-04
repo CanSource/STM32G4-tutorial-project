@@ -1,6 +1,6 @@
 # 📄 BOM for stm32-tutorial-project_bill_of_material 📄
 
-report created at 08:35:41.682309 on 04-04-2025.
+report created at 08:46:39.943021 on 04-04-2025.
 
 stm32-tutorial-project_bill_of_material has a total of 72 parts with a cost of $0.
 
@@ -77,5 +77,5 @@ stm32-tutorial-project_bill_of_material has a total of 72 parts with a cost of $
 | TP4 | 5V | 1 |  | $0 |
 | U1 | STM32G431CBTx | 1 | Package_QFP:LQFP-48_7x7mm_P0.5mm | $0 |
 | U2 | AZ1117-3.3 | 1 |  | $0 |
-| XMHz? | Crystal_GND23 | 1 |  | $0 |
+| X1 | Crystal_GND23 | 1 |  | $0 |
 |  | total | 72 | total | $0 |
