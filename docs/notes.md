@@ -259,5 +259,15 @@
 ### extras 
 
 12. ESD
+    added eds to usb input
+
 13. protection circuits
+    down stream 3.3v @ 1a = 3.3w
+    v_in = 5v
+    p = iv
+    3.3w = 5*i
+    3.3/5 = i
+    
+
+
 14. test points / jumpers
