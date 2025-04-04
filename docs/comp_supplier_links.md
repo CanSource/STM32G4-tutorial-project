@@ -37,16 +37,18 @@ will use 48MHz
 - [0R](https://www.digikey.co.nz/en/products/detail/yageo/RC0603JR-070RL/726675)
 - [5.1kR](https://www.digikey.co.nz/en/products/detail/yageo/RC0603FR-075K1L/727268)
 - [R_ext](https://www.digikey.co.nz/en/products/detail/yageo/RT0603DRE07200KL/1074678)
+- [1kR](https://www.digikey.co.nz/en/products/detail/yageo/RC0603FR-071KL/726880)
 
 #### inductors
 - [220ohm @ 100MHz](https://www.digikey.co.nz/en/products/detail/bourns-inc/MH1608-221Y/2563313)
 
-#### leds
-- [Orange](https://www.digikey.co.nz/en/products/detail/w%C3%BCrth-elektronik/150060AS75000/10468254)
-- [Red](https://www.digikey.co.nz/en/products/detail/w%C3%BCrth-elektronik/150060RS75000/4489901)
-- [Green](https://www.digikey.co.nz/en/products/detail/w%C3%BCrth-elektronik/150060VS75000/4489906)
-- [Blue](https://www.digikey.co.nz/en/products/detail/w%C3%BCrth-elektronik/150060BS75000/4489895)
-- [Yellow](https://www.digikey.co.nz/en/products/detail/w%C3%BCrth-elektronik/150060YS75000/4489909)
+#### diodes
+- [LED Orange](https://www.digikey.co.nz/en/products/detail/w%C3%BCrth-elektronik/150060AS75000/10468254)
+- [LED Red](https://www.digikey.co.nz/en/products/detail/w%C3%BCrth-elektronik/150060RS75000/4489901)
+- [LED Green](https://www.digikey.co.nz/en/products/detail/w%C3%BCrth-elektronik/150060VS75000/4489906)
+- [LED Blue](https://www.digikey.co.nz/en/products/detail/w%C3%BCrth-elektronik/150060BS75000/4489895)
+- [LED Yellow](https://www.digikey.co.nz/en/products/detail/w%C3%BCrth-elektronik/150060YS75000/4489909)
+- [or-ing diodes](https://www.digikey.co.nz/en/products/detail/onsemi/RB521S30T1G/920292)
 
 
 #### connectors
@@ -58,3 +60,20 @@ will use 48MHz
 
 - [boot switch](https://www.digikey.co.nz/en/products/detail/c-k/OS102011MA1QN1/1981430)
 - [reset button](https://www.digikey.co.nz/en/products/detail/c-k/PTS636SM43SMTR-LFS/10071723)
+
+- [fuse](https://www.digikey.co.nz/en/products/detail/bel-fuse-inc/0ZCK0075FF2E/4156142)
+
+
+#### connectors
+
+- [10 pin idc](https://www.digikey.co.nz/en/products/detail/assmann-wsw-components/AWHW2-10G-0202/5051801)
+- [usb type c](https://www.digikey.co.nz/en/products/detail/gct/USB4105-GF-A/11198441)
+
+#### button
+
+- [boot switch](https://www.digikey.co.nz/en/products/detail/c-k/OS102011MA1QN1/1981430)
+- [reset button](https://www.digikey.co.nz/en/products/detail/c-k/PTS636SM43SMTR-LFS/10071723)
+
+#### transistors
+- [npn](https://www.digikey.co.nz/en/products/detail/diotec-semiconductor/MMBT3904/13163698)
+- [pnp](https://www.digikey.co.nz/en/products/detail/diotec-semiconductor/MMBT3906/13163222)
