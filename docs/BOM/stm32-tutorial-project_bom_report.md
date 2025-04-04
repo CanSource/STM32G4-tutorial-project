@@ -1,8 +1,8 @@
 # 📄 BOM for stm32-tutorial-project_bill_of_material 📄
 
-report created at 02:14:14.087686 on 27-03-2025.
+report created at 06:46:12.026170 on 04-04-2025.
 
-stm32-tutorial-project_bill_of_material has a total of 65 parts with a cost of $0.
+stm32-tutorial-project_bill_of_material has a total of 66 parts with a cost of $0.
 
 | Reference | Value | Quantity | part number | cost |
 | --------- | ----- | -------- | ----------- | ---- |
@@ -32,6 +32,7 @@ stm32-tutorial-project_bill_of_material has a total of 65 parts with a cost of $
 | D10 | LED | 1 |  | $0 |
 | D11 | SP0504BAHT | 1 | Package_TO_SOT_SMD:SOT-23-5 | $0 |
 | D12 | PTVS7V5Z1USK | 1 | Diode_SMD:Nexperia_DSN1608-2_1.6x0.8mm | $0 |
+| F1 | Fuse | 1 | Fuse:Fuse_0805_2012Metric | $0 |
 | FB1 | 220 OHM | 1 | Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder | $0 |
 | FB2 | 220 OHM | 1 | Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder | $0 |
 | J1 | USB_C_Receptacle_USB2.0_14P | 1 |  | $0 |
@@ -71,4 +72,4 @@ stm32-tutorial-project_bill_of_material has a total of 65 parts with a cost of $
 | U1 | STM32G431CBTx | 1 | Package_QFP:LQFP-48_7x7mm_P0.5mm | $0 |
 | U2 | AZ1117-3.3 | 1 |  | $0 |
 | XMHz? | Crystal_GND23 | 1 |  | $0 |
-|  | total | 65 | total | $0 |
+|  | total | 66 | total | $0 |
