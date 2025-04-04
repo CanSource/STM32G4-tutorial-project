@@ -12,6 +12,108 @@
 		(comment 2 "designers:")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x13"
 			(pin_names
 				(offset 1.016) hide)
@@ -5112,6 +5214,12 @@
 		(uuid "1925819f-8d09-4d16-9111-1bc98e87b687")
 	)
 	(junction
+		(at 257.175 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1927f06a-28be-42d4-beaa-127f3d5e1c55")
+	)
+	(junction
 		(at 270.51 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5266,6 +5374,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd4cd7d2-d05e-4a1c-8e8b-4bb8536a68cc")
+	)
+	(junction
+		(at 257.175 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db03317a-5a5d-4225-85d1-86c3fd5fed7c")
 	)
 	(junction
 		(at 116.84 60.96)
@@ -6613,7 +6727,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 76.2) (xy 269.24 76.2)
+			(xy 242.57 76.2) (xy 257.175 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6823,7 +6937,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 78.74) (xy 269.24 78.74)
+			(xy 250.19 78.74) (xy 257.175 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6883,6 +6997,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.175 78.74) (xy 269.24 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5dc8ed3-0b36-4674-bf19-dab8ce464626")
+	)
+	(wire
+		(pts
 			(xy 186.69 17.78) (xy 186.69 21.59)
 		)
 		(stroke
@@ -6910,6 +7034,16 @@
 			(type default)
 		)
 		(uuid "dc17a905-f908-4de2-8a08-1ce23eb45e04")
+	)
+	(wire
+		(pts
+			(xy 257.175 76.2) (xy 269.24 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de0259c6-12cd-4af6-9882-37fd45f5a38f")
 	)
 	(wire
 		(pts
@@ -7656,6 +7790,7 @@
 	)
 	(label "PA7"
 		(at 149.86 83.82 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7666,6 +7801,7 @@
 	)
 	(label "PB9"
 		(at 180.34 46.99 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7676,6 +7812,7 @@
 	)
 	(label "PC14"
 		(at 180.34 29.21 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7686,6 +7823,7 @@
 	)
 	(label "NRST"
 		(at 121.92 171.45 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7696,6 +7834,7 @@
 	)
 	(label "USBPD_CC2"
 		(at 78.74 109.22 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7706,6 +7845,7 @@
 	)
 	(label "PA15"
 		(at 204.47 41.91 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7716,6 +7856,7 @@
 	)
 	(label "GREEN_DEBUG_LED"
 		(at 176.53 116.84 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7726,6 +7867,7 @@
 	)
 	(label "VIN+"
 		(at 184.15 71.12 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7736,6 +7878,7 @@
 	)
 	(label "USBPD_CC2"
 		(at 238.76 34.29 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7746,6 +7889,7 @@
 	)
 	(label "PB2"
 		(at 180.34 39.37 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7756,6 +7900,7 @@
 	)
 	(label "SW_DIO"
 		(at 149.86 101.6 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7766,6 +7911,7 @@
 	)
 	(label "SW_CLK"
 		(at 149.86 99.06 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7776,6 +7922,7 @@
 	)
 	(label "PB9"
 		(at 78.74 116.84 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7786,6 +7933,7 @@
 	)
 	(label "USBPD_CC1"
 		(at 78.74 104.14 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7796,6 +7944,7 @@
 	)
 	(label "SWO"
 		(at 78.74 101.6 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7806,6 +7955,7 @@
 	)
 	(label "PC13"
 		(at 78.74 83.82 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7816,6 +7966,7 @@
 	)
 	(label "PB7"
 		(at 78.74 111.76 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7826,6 +7977,7 @@
 	)
 	(label "PB2"
 		(at 78.74 99.06 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7836,6 +7988,7 @@
 	)
 	(label "PC13"
 		(at 180.34 26.67 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7846,6 +7999,7 @@
 	)
 	(label "DIGITAL_IO_1"
 		(at 228.6 76.2 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7856,6 +8010,7 @@
 	)
 	(label "PC15"
 		(at 78.74 88.9 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7866,6 +8021,7 @@
 	)
 	(label "PB0"
 		(at 180.34 34.29 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7876,6 +8032,7 @@
 	)
 	(label "PB0"
 		(at 78.74 93.98 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7886,6 +8043,7 @@
 	)
 	(label "PA15"
 		(at 149.86 104.14 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7896,6 +8054,7 @@
 	)
 	(label "PA7"
 		(at 204.47 36.83 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7906,6 +8065,7 @@
 	)
 	(label "BLUE_DEBUG_LED"
 		(at 238.76 140.97 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7916,6 +8076,7 @@
 	)
 	(label "NRST"
 		(at 68.58 71.12 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7926,6 +8087,7 @@
 	)
 	(label "PB11"
 		(at 78.74 121.92 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7936,6 +8098,7 @@
 	)
 	(label "PB10"
 		(at 78.74 119.38 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7946,6 +8109,7 @@
 	)
 	(label "DIGITAL_IO_1"
 		(at 149.86 86.36 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7956,6 +8120,7 @@
 	)
 	(label "DIGITAL_IO_2"
 		(at 228.6 78.74 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7966,6 +8131,7 @@
 	)
 	(label "PA10"
 		(at 204.47 39.37 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7976,6 +8142,7 @@
 	)
 	(label "PA6"
 		(at 204.47 34.29 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7986,6 +8153,7 @@
 	)
 	(label "PA0"
 		(at 204.47 24.13 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7996,6 +8164,7 @@
 	)
 	(label "PA4"
 		(at 149.86 76.2 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8006,6 +8175,7 @@
 	)
 	(label "USBPD_CC1"
 		(at 238.76 31.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8016,6 +8186,7 @@
 	)
 	(label "GREEN_DEBUG_LED"
 		(at 78.74 127 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8026,6 +8197,7 @@
 	)
 	(label "PB1"
 		(at 180.34 36.83 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8036,6 +8208,7 @@
 	)
 	(label "YELLOW_DEBUG_LED"
 		(at 78.74 124.46 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8046,6 +8219,7 @@
 	)
 	(label "PB7"
 		(at 180.34 44.45 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8056,6 +8230,7 @@
 	)
 	(label "YELLOW_DEBUG_LED"
 		(at 231.14 115.57 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8066,6 +8241,7 @@
 	)
 	(label "PA0"
 		(at 149.86 66.04 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8076,6 +8252,7 @@
 	)
 	(label "SWCLK"
 		(at 152.4 176.53 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8086,6 +8263,7 @@
 	)
 	(label "PB1"
 		(at 78.74 96.52 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8096,6 +8274,7 @@
 	)
 	(label "PA10"
 		(at 149.86 91.44 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8106,6 +8285,7 @@
 	)
 	(label "VIN-"
 		(at 149.86 73.66 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8116,6 +8296,7 @@
 	)
 	(label "PA4"
 		(at 204.47 29.21 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8126,6 +8307,7 @@
 	)
 	(label "PB5"
 		(at 180.34 41.91 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8136,6 +8318,7 @@
 	)
 	(label "PA5"
 		(at 149.86 78.74 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8146,6 +8329,7 @@
 	)
 	(label "PA5"
 		(at 204.47 31.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8156,6 +8340,7 @@
 	)
 	(label "BOOT_MODE"
 		(at 78.74 114.3 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8166,6 +8351,7 @@
 	)
 	(label "BLUE_DEBUG_LED"
 		(at 78.74 129.54 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8176,6 +8362,7 @@
 	)
 	(label "SWDIO"
 		(at 152.4 171.45 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8186,6 +8373,7 @@
 	)
 	(label "PC15"
 		(at 180.34 31.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8196,6 +8384,7 @@
 	)
 	(label "BOOT_MODE"
 		(at 100.33 175.26 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8206,6 +8395,7 @@
 	)
 	(label "PC14"
 		(at 78.74 86.36 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8216,6 +8406,7 @@
 	)
 	(label "D-"
 		(at 149.86 93.98 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8226,6 +8417,7 @@
 	)
 	(label "D-"
 		(at 238.76 25.4 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8236,6 +8428,7 @@
 	)
 	(label "SWO"
 		(at 121.92 176.53 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8246,6 +8439,7 @@
 	)
 	(label "PB11"
 		(at 204.47 46.99 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8256,6 +8450,7 @@
 	)
 	(label "VIN-"
 		(at 184.15 73.66 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8266,6 +8461,7 @@
 	)
 	(label "PA6"
 		(at 149.86 81.28 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8276,6 +8472,7 @@
 	)
 	(label "VOUT"
 		(at 149.86 71.12 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8286,6 +8483,7 @@
 	)
 	(label "RED_DEBUG_LED"
 		(at 184.15 158.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8296,6 +8494,7 @@
 	)
 	(label "NRST"
 		(at 49.53 177.8 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8306,6 +8505,7 @@
 	)
 	(label "RED_DEBUG_LED"
 		(at 78.74 132.08 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8316,6 +8516,7 @@
 	)
 	(label "DIGITAL_IO_2"
 		(at 149.86 88.9 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8326,6 +8527,7 @@
 	)
 	(label "VOUT"
 		(at 204.47 26.67 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8336,6 +8538,7 @@
 	)
 	(label "D+"
 		(at 149.86 96.52 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8346,6 +8549,7 @@
 	)
 	(label "VIN+"
 		(at 149.86 68.58 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8356,6 +8560,7 @@
 	)
 	(label "PB10"
 		(at 204.47 44.45 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8366,6 +8571,7 @@
 	)
 	(label "D+"
 		(at 238.76 22.86 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8376,6 +8582,7 @@
 	)
 	(label "PB5"
 		(at 78.74 106.68 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8383,6 +8590,72 @@
 			(justify left bottom)
 		)
 		(uuid "fba137e1-329e-441c-848d-22afb7d1cbdf")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 257.175 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06e6bacd-e675-41e6-8e8a-f9ea3c29e98a")
+		(property "Reference" "TP1"
+			(at 255.905 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DIGITAL_IO_1"
+			(at 257.81 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.255 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.255 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 257.175 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "301a7efe-60d4-44f9-9550-3dd499ad7699")
+		)
+		(instances
+			(project "stm32-tutorial-project"
+				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -14470,6 +14743,72 @@
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 257.175 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f256e36b-d0e6-4e6e-91e9-d26849e5a79e")
+		(property "Reference" "TP2"
+			(at 255.905 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DIGITAL_IO_2"
+			(at 257.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.095 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.095 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 257.175 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52e3c5f7-9bc6-4fda-a530-31ccc5715e98")
+		)
+		(instances
+			(project "stm32-tutorial-project"
+				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
