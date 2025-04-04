@@ -24,7 +24,10 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "multiple_net_names|2540000|857250|542b819f-bc9d-4f86-ae92-96b8dd43fadb|fa1b245c-d13d-48bd-85ca-0d6b58c80e34|/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2|/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2|/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2",
+      "power_pin_not_driven|2108200|774700|02f1a38a-879b-4b1a-b1ec-7a56569f5456|00000000-0000-0000-0000-000000000000|/d669673b-e709-4a82-ac8c-4eb3d8c60d0b|/d669673b-e709-4a82-ac8c-4eb3d8c60d0b|"
+    ],
     "meta": {
       "version": 0
     },
@@ -208,7 +211,7 @@
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
-      "endpoint_off_grid": "warning",
+      "endpoint_off_grid": "ignore",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
@@ -224,7 +227,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
