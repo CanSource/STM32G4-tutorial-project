@@ -10,70 +10,43 @@ we pick 0603 because its what you will use 90% of the time
 this makes it easier to route the design
 some components my not fit this size, i.e. bulk decoupling caps
 
-will use 48MHz 
+will use 8MHz to make routing slightly easier 
 
-### comp selection supply links
+crystal has 12pf load caps
 
-#### mcu
-- [stm32g431cbt6](https://www.digikey.co.nz/en/products/detail/stmicroelectronics/STM32G431CBT6/10231567)
+$$
+C_{\text{load}} = \frac{C_L^2}{2C_L} + C_{\text{stray}}
+$$
+this proof is left as an exercise to the reader
+$$
+2(C_{\text{load}} - C_{\text{stray}}) = C_L 
+$$
 
-#### crystal
-- [8 MHz 12pF](https://www.digikey.co.nz/en/products/detail/geyer-electronic-america-inc/12-60049/23544180)
+$$
+C_{\text{load}} = 12\text{pf}
+$$
 
-#### caps
-- [100n 6.3v VDD ceramic](https://www.digikey.co.nz/en/products/detail/kemet/C0603C104K9PACTU/8572410)
-- [4.7u 6.3v VDD ceramic](https://www.digikey.co.nz/en/products/detail/kemet/C0603C475K9PACTU/754744)
-- [100n 6.3v VDDA ceramic](https://www.digikey.co.nz/en/products/detail/kemet/C0603C104K9RACTU/2199778)
-- [1u 6.3v VDDA ceramic](https://www.digikey.co.nz/en/products/detail/kemet/C0603C105K9RACTU/2199792)
-- [10n 6.3v VDDA ceramic](https://www.digikey.co.nz/en/products/detail/kemet/C0603C103K9RACTU/2199760)
-- [12pf 6.3v crystal](https://www.digikey.co.nz/short/070htwr2)
-- [10uf 6.3v VBUS](https://www.digikey.co.nz/en/products/detail/kemet/C0603C106M9PACTU/1950664)
-- [10uf 6.3v reg](https://www.digikey.co.nz/en/products/detail/kemet/A700V106M006ATE055/1931870)
-- [22uf 16v reg](https://www.digikey.co.nz/en/products/detail/kemet/A700D226M016ATE030/1931890)
-#### resistors
+$$
+C_{\text{stray}} = 5\text{pf}
+$$
 
-- [500R](https://www.digikey.co.nz/en/products/detail/yageo/RT0603BRD07500RL/17019950)
-- [10kR](https://www.digikey.co.nz/en/products/detail/yageo/RC0603FR-0710KL/726880) 
-- [0R](https://www.digikey.co.nz/en/products/detail/yageo/RC0603JR-070RL/726675)
-- [5.1kR](https://www.digikey.co.nz/en/products/detail/yageo/RC0603FR-075K1L/727268)
-- [R_ext](https://www.digikey.co.nz/en/products/detail/yageo/RT0603DRE07200KL/1074678)
-- [1kR](https://www.digikey.co.nz/en/products/detail/yageo/RC0603FR-071KL/726880)
+$$
+2(12 - 5) = 2*(7) = 14 = C_L 
+$$
 
-#### inductors
-- [220ohm @ 100MHz](https://www.digikey.co.nz/en/products/detail/bourns-inc/MH1608-221Y/2563313)
+only 12pf available and there will be an extra bit a stray floating around so it'll be fine
+place a zero ohm on R_EXT and fine tune later if needed, but the value should be some where
+around 470R and 1k.
 
-#### diodes
-- [LED Orange](https://www.digikey.co.nz/en/products/detail/w%C3%BCrth-elektronik/150060AS75000/10468254)
-- [LED Red](https://www.digikey.co.nz/en/products/detail/w%C3%BCrth-elektronik/150060RS75000/4489901)
-- [LED Green](https://www.digikey.co.nz/en/products/detail/w%C3%BCrth-elektronik/150060VS75000/4489906)
-- [LED Blue](https://www.digikey.co.nz/en/products/detail/w%C3%BCrth-elektronik/150060BS75000/4489895)
-- [LED Yellow](https://www.digikey.co.nz/en/products/detail/w%C3%BCrth-elektronik/150060YS75000/4489909)
-- [or-ing diodes](https://www.digikey.co.nz/en/products/detail/onsemi/RB521S30T1G/920292)
+selecting parts normally occurs after you finishes making the schematic, however some part
+have to be selected during designing, such as the microcontroller regulator and any other
+ic you may have added to the board.
+
+6.3v caps picked for most caps, as its common and gives a good buffer for 5v systems
+
+was going to do alu caps for inrush but there are either big or $$$ so use ceramics
+
+exclude solder jumpers from bill of materials
 
 
-#### connectors
-
-- [10 pin idc](https://www.digikey.co.nz/en/products/detail/assmann-wsw-components/AWHW2-10G-0202/5051801)
-- [usb type c](https://www.digikey.co.nz/en/products/detail/gct/USB4105-GF-A/11198441)
-
-#### button
-
-- [boot switch](https://www.digikey.co.nz/en/products/detail/c-k/OS102011MA1QN1/1981430)
-- [reset button](https://www.digikey.co.nz/en/products/detail/c-k/PTS636SM43SMTR-LFS/10071723)
-
-- [fuse](https://www.digikey.co.nz/en/products/detail/bel-fuse-inc/0ZCK0075FF2E/4156142)
-
-
-#### connectors
-
-- [10 pin idc](https://www.digikey.co.nz/en/products/detail/assmann-wsw-components/AWHW2-10G-0202/5051801)
-- [usb type c](https://www.digikey.co.nz/en/products/detail/gct/USB4105-GF-A/11198441)
-
-#### button
-
-- [boot switch](https://www.digikey.co.nz/en/products/detail/c-k/OS102011MA1QN1/1981430)
-- [reset button](https://www.digikey.co.nz/en/products/detail/c-k/PTS636SM43SMTR-LFS/10071723)
-
-#### transistors
-- [npn](https://www.digikey.co.nz/en/products/detail/diotec-semiconductor/MMBT3904/13163698)
-- [pnp](https://www.digikey.co.nz/en/products/detail/diotec-semiconductor/MMBT3906/13163222)
+[digicart link](https://www.digikey.co.nz/short/wt7jmr5z)
