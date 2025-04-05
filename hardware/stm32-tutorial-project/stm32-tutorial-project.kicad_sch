@@ -1079,7 +1079,7 @@
 				)
 			)
 		)
-		(symbol "Device:Crystal_GND23"
+		(symbol "Device:Crystal_GND24"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -1094,7 +1094,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Crystal_GND23"
+			(property "Value" "Crystal_GND24"
 				(at 3.175 3.175 0)
 				(effects
 					(font
@@ -1121,7 +1121,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Four pin crystal, GND on pins 2 and 3"
+			(property "Description" "Four pin crystal, GND on pins 2 and 4"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1148,7 +1148,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Crystal_GND23_0_1"
+			(symbol "Crystal_GND24_0_1"
 				(rectangle
 					(start -1.143 2.54)
 					(end 1.143 -2.54)
@@ -1257,7 +1257,7 @@
 					)
 				)
 			)
-			(symbol "Crystal_GND23_1_1"
+			(symbol "Crystal_GND24_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -1295,7 +1295,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
+					(at 3.81 0 180)
 					(length 1.27)
 					(name "3"
 						(effects
@@ -1313,7 +1313,7 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at 0 -5.08 90)
 					(length 1.27)
 					(name "4"
 						(effects
@@ -5298,6 +5298,12 @@
 		)
 	)
 	(junction
+		(at 137.16 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e067b06-e6c2-4bbc-aec5-aacf13348504")
+	)
+	(junction
 		(at 115.57 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5332,12 +5338,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2dd2f1c1-8fec-4777-a546-b5b786445f9f")
-	)
-	(junction
-		(at 137.16 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3190e186-f936-454e-9332-555293fd1dd0")
 	)
 	(junction
 		(at 67.31 45.72)
@@ -5394,6 +5394,12 @@
 		(uuid "5fc4bb18-ea67-46eb-a064-3c32bbffef52")
 	)
 	(junction
+		(at 54.61 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63395060-0c28-44cc-acb2-b7c06be132bb")
+	)
+	(junction
 		(at 50.8 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5442,12 +5448,6 @@
 		(uuid "8996f865-76ca-4eb7-9f06-187ebf0d91f1")
 	)
 	(junction
-		(at 54.61 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9249875c-ef0a-404d-8752-2054294da2dc")
-	)
-	(junction
 		(at 95.25 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5476,6 +5476,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba643683-f4ed-47d9-9951-2dcefd8c9b92")
+	)
+	(junction
+		(at 46.99 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbe2a551-ae05-4529-8435-32c0cb9edf8e")
 	)
 	(junction
 		(at 114.3 60.96)
@@ -5512,12 +5518,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0e861b8-95bb-4487-ad5b-e0569d4449c3")
-	)
-	(junction
-		(at 46.99 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e68b02f7-23ea-4e10-8376-0dece72c34a8")
 	)
 	(junction
 		(at 95.25 35.56)
@@ -5654,6 +5654,16 @@
 			(type default)
 		)
 		(uuid "09efe2ba-d277-4d6d-aaaf-1ae93631296f")
+	)
+	(wire
+		(pts
+			(xy 46.99 87.63) (xy 46.99 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09f4b00e-fff0-4db3-944c-87243aeef58e")
 	)
 	(wire
 		(pts
@@ -6517,16 +6527,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 91.44) (xy 54.61 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86d6e093-0336-49b6-a7af-0cd1a7e2d1ce")
-	)
-	(wire
-		(pts
 			(xy 184.15 158.75) (xy 203.2 158.75)
 		)
 		(stroke
@@ -6614,6 +6614,16 @@
 			(type default)
 		)
 		(uuid "8e549cb2-6ce3-4e72-8b25-12451e31c7d0")
+	)
+	(wire
+		(pts
+			(xy 54.61 87.63) (xy 54.61 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90645e8d-22eb-4d74-a77d-777c033b3811")
 	)
 	(wire
 		(pts
@@ -7187,16 +7197,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 91.44) (xy 46.99 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfd2ca4b-3f7a-4a32-8760-72a8aadefd0f")
-	)
-	(wire
-		(pts
 			(xy 210.82 17.78) (xy 210.82 19.05)
 		)
 		(stroke
@@ -7652,7 +7652,7 @@
 	)
 	(text ","
 		(exclude_from_sim no)
-		(at 36.83 88.9 0)
+		(at 40.005 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8726,7 +8726,7 @@
 		(at 257.175 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "06e6bacd-e675-41e6-8e8a-f9ea3c29e98a")
@@ -8775,6 +8775,33 @@
 				(hide yes)
 			)
 		)
+		(property "supplier_link" ""
+			(at 257.175 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 257.175 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
+			(at 257.175 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "301a7efe-60d4-44f9-9550-3dd499ad7699")
 		)
@@ -8814,7 +8841,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 257.302 152.4 90)
 			(effects
 				(font
@@ -8823,7 +8850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
 			(at 259.08 152.4 0)
 			(effects
 				(font
@@ -8833,6 +8860,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 259.08 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/yageo/RT0603BRD07500RL/17019950"
+			(at 259.08 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RT0603BRD07500RL"
+			(at 259.08 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
 			(at 259.08 152.4 0)
 			(effects
 				(font
@@ -9081,7 +9135,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 74.6252 44.45 0)
 			(effects
 				(font
@@ -9090,7 +9144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf"
 			(at 73.66 40.64 0)
 			(effects
 				(font
@@ -9117,6 +9171,33 @@
 			)
 		)
 		(property "rating" "X5R"
+			(at 73.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/kemet/C0603C475K9PACTU/754744"
+			(at 73.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C0603C475K9PACTU"
+			(at 73.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
 			(at 73.66 40.64 0)
 			(effects
 				(font
@@ -9241,7 +9322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.assmann-wsw.com/uploads/datasheets/ASS_2317_CO.pdf"
 			(at 135.89 176.53 0)
 			(effects
 				(font
@@ -9251,6 +9332,33 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 135.89 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/assmann-wsw-components/AWHW2-10G-0202/5051801"
+			(at 135.89 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "AWHW2 10G-0202"
+			(at 135.89 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
 			(at 135.89 176.53 0)
 			(effects
 				(font
@@ -9369,7 +9477,7 @@
 		(at 194.31 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "27bcc154-7f60-4278-921f-91a3c4d423bf")
@@ -9410,6 +9518,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x13, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 194.31 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier_link" ""
+			(at 194.31 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 194.31 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
 			(at 194.31 34.29 0)
 			(effects
 				(font
@@ -9526,6 +9661,110 @@
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 259.08 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29cc6673-9450-4479-ab16-e05c3815ba7c")
+		(property "Reference" "D7"
+			(at 262.255 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 262.255 146.685 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 259.08 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060BS75000.pdf"
+			(at 259.08 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 259.08 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Colour" "Blue"
+			(at 264.16 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/w%C3%BCrth-elektronik/150060BS75000/4489895"
+			(at 259.08 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "150060BS75000"
+			(at 259.08 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
+			(at 259.08 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5db5be5-f657-4588-98f8-75b8dd59b544")
+		)
+		(pin "2"
+			(uuid "58c06b14-7003-4c86-b320-45f397f91db2")
+		)
+		(instances
+			(project "stm32-tutorial-project"
+				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -9794,83 +10033,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 259.08 144.78 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "33a49794-34cd-4188-bb1c-c53f572a9a61")
-		(property "Reference" "D7"
-			(at 262.255 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 262.255 146.685 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 259.08 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 259.08 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 259.08 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Colour" "Blue"
-			(at 264.16 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "149fe2d5-4caf-47f0-9eaf-671bdafbd55f")
-		)
-		(pin "2"
-			(uuid "b161f576-91bd-4fc1-af6b-7ea4f192b7f4")
-		)
-		(instances
-			(project "stm32-tutorial-project"
-				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VBUS")
 		(at 186.69 17.78 0)
 		(unit 1)
@@ -9961,7 +10123,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 85.09 177.038 90)
 			(effects
 				(font
@@ -9970,7 +10132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 85.09 175.26 0)
 			(effects
 				(font
@@ -9980,6 +10142,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 85.09 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/yageo/RC0603FR-071KL/726880"
+			(at 85.09 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 85.09 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
 			(at 85.09 175.26 0)
 			(effects
 				(font
@@ -10030,7 +10219,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 259.08 117.348 90)
 			(effects
 				(font
@@ -10039,7 +10228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 259.08 115.57 0)
 			(effects
 				(font
@@ -10049,6 +10238,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 259.08 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/yageo/RC0603FR-071KL/726880"
+			(at 259.08 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 259.08 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
 			(at 259.08 115.57 0)
 			(effects
 				(font
@@ -10077,7 +10293,7 @@
 		(at 274.32 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "3b2a7f8f-0508-4847-8cbf-bc0bbf77b910")
@@ -10156,6 +10372,24 @@
 				(hide yes)
 			)
 		)
+		(property "supplier_link" ""
+			(at 274.32 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
+			(at 274.32 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "467f2341-b018-4b73-b12d-69df20af8214")
 		)
@@ -10204,7 +10438,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 255.778 119.38 90)
 			(effects
 				(font
@@ -10213,7 +10447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 254 119.38 0)
 			(effects
 				(font
@@ -10223,6 +10457,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 254 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/yageo/RC0603FR-071KL/726880"
+			(at 254 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 254 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
 			(at 254 119.38 0)
 			(effects
 				(font
@@ -10256,7 +10517,7 @@
 		(dnp no)
 		(uuid "431b9ccd-3ac6-4cac-8b1e-8c9e0e39f846")
 		(property "Reference" "C9"
-			(at 40.64 93.345 0)
+			(at 39.37 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10264,8 +10525,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CL1"
-			(at 40.64 95.885 0)
+		(property "Value" "12pf"
+			(at 39.37 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10273,7 +10534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 47.9552 99.06 0)
 			(effects
 				(font
@@ -10282,7 +10543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
 			(at 46.99 95.25 0)
 			(effects
 				(font
@@ -10301,7 +10562,7 @@
 			)
 		)
 		(property "voltage" "6.3v"
-			(at 42.545 98.425 0)
+			(at 41.275 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10309,6 +10570,41 @@
 			)
 		)
 		(property "rating" "X7R"
+			(at 46.99 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/kemet/C0603C120K9RAC7411/18190315"
+			(at 46.99 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C0603C120K9RAC7411"
+			(at 46.99 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CL" "CL1"
+			(at 41.275 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Votlage" ""
 			(at 46.99 95.25 0)
 			(effects
 				(font
@@ -10425,7 +10721,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 203.2 147.32 0)
 			(effects
 				(font
@@ -10434,7 +10730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060RS75000.pdf"
 			(at 203.2 147.32 0)
 			(effects
 				(font
@@ -10458,6 +10754,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/w%C3%BCrth-elektronik/150060RS75000/4489901"
+			(at 203.2 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "150060RS75000"
+			(at 203.2 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
+			(at 203.2 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10542,6 +10865,127 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 54.61 95.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4cdf6913-ab6d-469c-96e1-b33c0cbc2fba")
+		(property "Reference" "C10"
+			(at 61.595 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "12pf"
+			(at 61.595 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 53.6448 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+			(at 54.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 54.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "voltage" "6.3v"
+			(at 59.69 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "rating" "X7R"
+			(at 54.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/kemet/C0603C120K9RAC7411/18190315"
+			(at 54.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C0603C120K9RAC7411"
+			(at 54.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CL" "CL2"
+			(at 59.69 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Votlage" ""
+			(at 54.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c496cc6-c495-4b39-a4f4-1663c4860cfc")
+		)
+		(pin "2"
+			(uuid "209d1b47-f59e-419e-8197-20144c573910")
+		)
+		(instances
+			(project "stm32-tutorial-project"
+				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 20.32 173.99 0)
 		(unit 1)
@@ -10569,7 +11013,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 18.542 173.99 90)
 			(effects
 				(font
@@ -10578,7 +11022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
 			(at 20.32 173.99 0)
 			(effects
 				(font
@@ -10588,6 +11032,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 20.32 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/yageo/RT0603BRD07500RL/17019950"
+			(at 20.32 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RT0603BRD07500RL"
+			(at 20.32 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
 			(at 20.32 173.99 0)
 			(effects
 				(font
@@ -10880,7 +11351,7 @@
 		(at 257.81 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "4f627690-881e-4fc6-a959-1fe0c0257287")
@@ -10919,6 +11390,33 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, open"
+			(at 257.81 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier_link" ""
+			(at 257.81 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 257.81 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
 			(at 257.81 62.23 0)
 			(effects
 				(font
@@ -11034,7 +11532,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q"
 			(at 68.58 175.26 0)
 			(effects
 				(font
@@ -11043,7 +11541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.ckswitches.com/media/1428/os.pdf"
 			(at 68.58 175.26 0)
 			(effects
 				(font
@@ -11053,6 +11551,33 @@
 			)
 		)
 		(property "Description" "Momentary Switch, single pole double throw"
+			(at 68.58 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/c-k/OS102011MA1QN1/1981430"
+			(at 68.58 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "OS102011MA1QN1"
+			(at 68.58 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
 			(at 68.58 175.26 0)
 			(effects
 				(font
@@ -11106,7 +11631,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 268.732 106.68 90)
 			(effects
 				(font
@@ -11115,7 +11640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
 			(at 270.51 106.68 0)
 			(effects
 				(font
@@ -11125,6 +11650,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 270.51 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/yageo/RT0603BRD07500RL/17019950"
+			(at 270.51 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RT0603BRD07500RL"
+			(at 270.51 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
 			(at 270.51 106.68 0)
 			(effects
 				(font
@@ -11284,7 +11836,7 @@
 		(at 217.17 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "648ab8ff-6445-4fff-93d9-09073dec3a26")
@@ -11325,6 +11877,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x13, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 217.17 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier_link" ""
+			(at 217.17 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 217.17 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
 			(at 217.17 34.29 0)
 			(effects
 				(font
@@ -11473,7 +12052,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 74.422 186.69 90)
 			(effects
 				(font
@@ -11482,7 +12061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
 			(at 76.2 186.69 0)
 			(effects
 				(font
@@ -11492,6 +12071,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 76.2 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/yageo/RT0603BRD07500RL/17019950"
+			(at 76.2 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RT0603BRD07500RL"
+			(at 76.2 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
 			(at 76.2 186.69 0)
 			(effects
 				(font
@@ -11510,6 +12116,119 @@
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 95.25 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b7238d8-0385-4f7e-a684-77d7f5dca9f3")
+		(property "Reference" "C5"
+			(at 98.425 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 98.425 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 96.2152 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf"
+			(at 95.25 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 95.25 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "voltage" "6.3v"
+			(at 100.33 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "rating" "X5R"
+			(at 95.25 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/kemet/C0603C104K9PACTU/8572410"
+			(at 95.25 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C0603C104K9PACTU"
+			(at 95.25 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
+			(at 95.25 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08038bf9-ac7c-4338-b9fa-72089d8b9b4f")
+		)
+		(pin "2"
+			(uuid "9a671242-65a4-4e14-9471-224ed9cbd93c")
+		)
+		(instances
+			(project "stm32-tutorial-project"
+				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -11543,7 +12262,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 36.83 182.88 0)
 			(effects
 				(font
@@ -11552,7 +12271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.ckswitches.com/media/2779/pts636.pdf"
 			(at 36.83 182.88 0)
 			(effects
 				(font
@@ -11562,6 +12281,33 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 31.75 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/c-k/PTS636SM43SMTR-LFS/10071723"
+			(at 31.75 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "PTS636SM43SMTR LFS"
+			(at 31.75 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
 			(at 31.75 182.88 0)
 			(effects
 				(font
@@ -11612,7 +12358,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 270.51 99.06 0)
 			(effects
 				(font
@@ -11621,7 +12367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060YS75000.pdf"
 			(at 270.51 99.06 0)
 			(effects
 				(font
@@ -11645,6 +12391,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/w%C3%BCrth-elektronik/150060YS75000/4489909"
+			(at 270.51 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "150060YS75000"
+			(at 270.51 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
+			(at 270.51 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11794,92 +12567,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 54.61 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "787c2372-8cc1-4c66-8881-d5696425b218")
-		(property "Reference" "C10"
-			(at 58.42 93.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CL2"
-			(at 58.42 95.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.5752 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 54.61 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "voltage" "6.3v"
-			(at 60.325 98.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "rating" "X7R"
-			(at 54.61 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "95f4c5b3-a5e2-4fce-9499-14f30e732aba")
-		)
-		(pin "2"
-			(uuid "56c2c31f-a2ca-4445-a519-3810a51dfbf0")
-		)
-		(instances
-			(project "stm32-tutorial-project"
-				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 76.2 190.5 0)
 		(unit 1)
@@ -11972,7 +12659,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23_HandSoldering"
 			(at 331.47 115.57 0)
 			(effects
 				(font
@@ -11981,7 +12668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+		(property "Datasheet" "https://diotec.com/request/datasheet/mmbt3904.pdf"
 			(at 331.47 115.57 0)
 			(effects
 				(font
@@ -12018,6 +12705,33 @@
 			)
 		)
 		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 267.97 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/diotec-semiconductor/MMBT3904/13163698"
+			(at 267.97 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "MMBT3904"
+			(at 267.97 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
 			(at 267.97 115.57 0)
 			(effects
 				(font
@@ -12136,7 +12850,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 131.7752 54.61 0)
 			(effects
 				(font
@@ -12145,7 +12859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
 			(at 130.81 50.8 0)
 			(effects
 				(font
@@ -12172,6 +12886,33 @@
 			)
 		)
 		(property "rating" "X7R"
+			(at 130.81 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/kemet/C0603C103K9RACTU/2199760"
+			(at 130.81 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C0603C103K9RACTU"
+			(at 130.81 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
 			(at 130.81 50.8 0)
 			(effects
 				(font
@@ -12222,7 +12963,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 20.32 166.37 0)
 			(effects
 				(font
@@ -12231,7 +12972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150060AS75000.pdf"
 			(at 20.32 166.37 0)
 			(effects
 				(font
@@ -12255,6 +12996,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/w%C3%BCrth-elektronik/150060AS75000/10468254"
+			(at 20.32 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "150060AS75000"
+			(at 20.32 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
+			(at 20.32 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12299,7 +13067,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 201.422 154.94 90)
 			(effects
 				(font
@@ -12308,7 +13076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
 			(at 203.2 154.94 0)
 			(effects
 				(font
@@ -12318,6 +13086,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 203.2 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/yageo/RT0603BRD07500RL/17019950"
+			(at 203.2 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RT0603BRD07500RL"
+			(at 203.2 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
 			(at 203.2 154.94 0)
 			(effects
 				(font
@@ -12408,92 +13203,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 137.16 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "879d6cb8-db9f-4b43-9af7-fa7ef0bf282b")
-		(property "Reference" "C8"
-			(at 140.335 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 140.335 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.1252 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 137.16 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "voltage" "6.3v"
-			(at 142.24 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "rating" "X7R"
-			(at 137.16 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a711f266-3ec0-4593-9783-a3c5772330b6")
-		)
-		(pin "2"
-			(uuid "fc4d0802-08de-4682-922e-ba045bf1957c")
-		)
-		(instances
-			(project "stm32-tutorial-project"
-				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 217.17 107.95 0)
 		(unit 1)
@@ -12520,7 +13229,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 215.392 107.95 90)
 			(effects
 				(font
@@ -12529,7 +13238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
 			(at 217.17 107.95 0)
 			(effects
 				(font
@@ -12539,6 +13248,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 217.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/yageo/RT0603BRD07500RL/17019950"
+			(at 217.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RT0603BRD07500RL"
+			(at 217.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
 			(at 217.17 107.95 0)
 			(effects
 				(font
@@ -12622,92 +13358,6 @@
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b"
 					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 105.41 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8c63cdb5-cb66-4491-9108-11d0ec8ee137")
-		(property "Reference" "C6"
-			(at 108.585 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 108.585 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.3752 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 105.41 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "voltage" "6.3v"
-			(at 110.49 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "rating" "X5R"
-			(at 105.41 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf60ca22-e1c4-4cda-96ad-84a6ab0c4b67")
-		)
-		(pin "2"
-			(uuid "6ef9b14a-ffc3-40d2-ad1a-f22c090f9415")
-		)
-		(instances
-			(project "stm32-tutorial-project"
-				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b"
-					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -13097,6 +13747,33 @@
 				(hide yes)
 			)
 		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/stmicroelectronics/STM32G431CBT6/10231567"
+			(at 114.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "STM32G431CBT6"
+			(at 114.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
+			(at 114.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "24"
 			(uuid "1a5d0883-d6cb-445f-aa77-ce1b299fd792")
 		)
@@ -13277,7 +13954,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 217.17 100.33 0)
 			(effects
 				(font
@@ -13286,7 +13963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060VS75000.pdf"
 			(at 217.17 100.33 0)
 			(effects
 				(font
@@ -13310,6 +13987,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/w%C3%BCrth-elektronik/150060VS75000/4489906"
+			(at 217.17 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "150060VS75000"
+			(at 217.17 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
+			(at 217.17 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13485,7 +14189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 21.2852 186.69 0)
 			(effects
 				(font
@@ -13494,7 +14198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf"
 			(at 20.32 182.88 0)
 			(effects
 				(font
@@ -13521,6 +14225,33 @@
 			)
 		)
 		(property "rating" "X5R"
+			(at 20.32 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/kemet/C0603C104K9PACTU/8572410"
+			(at 20.32 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C0603C104K9PACTU"
+			(at 20.32 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
 			(at 20.32 182.88 0)
 			(effects
 				(font
@@ -13637,7 +14368,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 205.74 118.618 90)
 			(effects
 				(font
@@ -13646,7 +14377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 205.74 116.84 0)
 			(effects
 				(font
@@ -13656,6 +14387,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 205.74 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/yageo/RC0603FR-071KL/726880"
+			(at 205.74 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 205.74 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
 			(at 205.74 116.84 0)
 			(effects
 				(font
@@ -13811,6 +14569,235 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Crystal_GND24")
+		(at 50.8 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "acb0656f-6d93-4e1b-8d6d-7ed109d143c9")
+		(property "Reference" "X1"
+			(at 56.515 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Crystal_GND24"
+			(at 40.005 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering"
+			(at 50.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6209/12.60049.pdf"
+			(at 50.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+			(at 50.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LoadCapacitance" "12pf"
+			(at 43.18 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "frequency" "8MHz"
+			(at 37.465 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/geyer-electronic-america-inc/12-60049/23544180"
+			(at 50.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "12.60049"
+			(at 50.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
+			(at 50.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "127e19d5-4399-4dee-9cf3-081e319f9dec")
+		)
+		(pin "2"
+			(uuid "a97e948f-6126-46c2-818f-e7cf3b68f53f")
+		)
+		(pin "1"
+			(uuid "77532e50-bbd6-48d8-8e70-0d8719867a03")
+		)
+		(pin "3"
+			(uuid "80d22142-06d1-4325-a860-a44f1cc1f816")
+		)
+		(instances
+			(project "stm32-tutorial-project"
+				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b"
+					(reference "X1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 83.82 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3cad72e-b028-45ae-bb9c-948cc38f8747")
+		(property "Reference" "C4"
+			(at 86.995 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 86.995 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 84.7852 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf"
+			(at 83.82 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 83.82 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "voltage" "6.3v"
+			(at 88.9 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "rating" "X5R"
+			(at 83.82 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/kemet/C0603C104K9PACTU/8572410"
+			(at 83.82 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C0603C104K9PACTU"
+			(at 83.82 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
+			(at 83.82 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35c79e19-b299-48d0-854f-9e92a37721f9")
+		)
+		(pin "2"
+			(uuid "7bd17ef0-92fb-4b15-a0c0-d3826af63982")
+		)
+		(instances
+			(project "stm32-tutorial-project"
+				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 270.51 95.25 0)
 		(unit 1)
@@ -13882,7 +14869,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -13922,6 +14909,33 @@
 			)
 		)
 		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
+			(at 107.95 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier_link" ""
+			(at 107.95 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 107.95 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
 			(at 107.95 57.15 0)
 			(effects
 				(font
@@ -13975,7 +14989,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 76.2 179.07 0)
 			(effects
 				(font
@@ -13984,7 +14998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060BS75000.pdf"
 			(at 76.2 179.07 0)
 			(effects
 				(font
@@ -14010,6 +15024,33 @@
 				)
 			)
 		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/w%C3%BCrth-elektronik/150060BS75000/4489895"
+			(at 76.2 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "150060BS75000"
+			(at 76.2 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
+			(at 76.2 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f05b21b1-5bd9-4b44-8ded-11ae040f0f34")
 		)
@@ -14020,6 +15061,119 @@
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 137.16 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7ae6740-e2ad-46f3-8669-cb619af0fcc8")
+		(property "Reference" "C8"
+			(at 140.335 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 140.335 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 138.1252 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+			(at 137.16 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 137.16 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "voltage" "6.3v"
+			(at 142.24 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "rating" "X7R"
+			(at 137.16 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/kemet/C0603C105K9RACTU/2199792"
+			(at 137.16 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C0603C105K9RACTU"
+			(at 137.16 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
+			(at 137.16 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8babb95-992e-4d51-b7c2-dc44debb0019")
+		)
+		(pin "2"
+			(uuid "d69aed95-3f51-42f8-9e5e-faeef304acaa")
+		)
+		(instances
+			(project "stm32-tutorial-project"
+				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -14117,7 +15271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 199.898 121.92 90)
 			(effects
 				(font
@@ -14126,7 +15280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 198.12 121.92 0)
 			(effects
 				(font
@@ -14136,6 +15290,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 198.12 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/yageo/RC0603FR-071KL/726880"
+			(at 198.12 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 198.12 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
 			(at 198.12 121.92 0)
 			(effects
 				(font
@@ -14186,7 +15367,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 55.5752 54.61 0)
 			(effects
 				(font
@@ -14195,7 +15376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
 			(at 54.61 50.8 0)
 			(effects
 				(font
@@ -14222,6 +15403,33 @@
 			)
 		)
 		(property "rating" "X7R"
+			(at 54.61 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/kemet/C0603C104K9RACTU/2199778"
+			(at 54.61 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C0603C104K9RACTU"
+			(at 54.61 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
 			(at 54.61 50.8 0)
 			(effects
 				(font
@@ -14381,6 +15589,33 @@
 				)
 			)
 		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/bourns-inc/MH1608-221Y/2563313"
+			(at 67.31 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "MH1608-221Y"
+			(at 67.31 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
+			(at 67.31 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f5346833-d5e5-4b50-a14d-877e7507a611")
 		)
@@ -14401,7 +15636,7 @@
 		(at 215.9 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "c5365694-7810-448e-928c-820b1273e862")
@@ -14480,6 +15715,24 @@
 				(hide yes)
 			)
 		)
+		(property "supplier_link" ""
+			(at 215.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
+			(at 215.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dc040043-c768-4aab-bb6c-b48c11c6a8d3")
 		)
@@ -14510,15 +15763,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9e32c38-63b6-48c2-a424-6a8232353788")
-		(property "Reference" "R1"
-			(at 58.42 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EXT"
+		(property "Reference" "R_EXT"
 			(at 58.42 81.28 90)
 			(effects
 				(font
@@ -14526,7 +15771,15 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Value" "0"
+			(at 58.42 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 58.42 80.518 90)
 			(effects
 				(font
@@ -14535,7 +15788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 58.42 78.74 0)
 			(effects
 				(font
@@ -14553,6 +15806,33 @@
 				(hide yes)
 			)
 		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/yageo/RC0603JR-070RL/726675"
+			(at 58.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603JR-070RL"
+			(at 58.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
+			(at 58.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b3091db1-00b4-44f8-a3fe-5f7e512df159")
 		)
@@ -14562,7 +15842,7 @@
 		(instances
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b"
-					(reference "R1")
+					(reference "R_EXT")
 					(unit 1)
 				)
 			)
@@ -14596,7 +15876,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23_HandSoldering"
 			(at 250.19 116.84 0)
 			(effects
 				(font
@@ -14650,6 +15930,33 @@
 				(hide yes)
 			)
 		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/diotec-semiconductor/MMBT3906/13163222"
+			(at 214.63 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "MMBT3906"
+			(at 214.63 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
+			(at 214.63 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f33a9cf5-e949-4bc4-943d-30013dcf522e")
 		)
@@ -14695,7 +16002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 60.6552 54.61 0)
 			(effects
 				(font
@@ -14704,7 +16011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
 			(at 59.69 50.8 0)
 			(effects
 				(font
@@ -14739,6 +16046,33 @@
 				(hide yes)
 			)
 		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/kemet/C0603C105K9RACTU/2199792"
+			(at 59.69 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C0603C105K9RACTU"
+			(at 59.69 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
+			(at 59.69 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5b49f02d-2c58-4c22-8391-0e55525d3c5c")
 		)
@@ -14749,95 +16083,6 @@
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Crystal_GND23")
-		(at 50.8 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d995eb90-3995-4bfe-8cb6-b632590c08e0")
-		(property "Reference" "X1"
-			(at 57.15 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Crystal_GND23"
-			(at 38.735 85.725 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 3"
-			(at 50.8 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LoadCapacitance" "C_load"
-			(at 41.91 88.265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "frequency" "XMHz"
-			(at 34.925 88.265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "3ba1ed6c-1b6c-4e4b-b6f3-d43b6162edf0")
-		)
-		(pin "2"
-			(uuid "01bd6863-9855-46c4-aa49-0d6fddc14220")
-		)
-		(pin "1"
-			(uuid "90392178-a649-4de2-914c-751bec36e93f")
-		)
-		(pin "3"
-			(uuid "a584fe3b-6ef4-461c-8b8f-c0c1860c046f")
-		)
-		(instances
-			(project "stm32-tutorial-project"
-				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b"
-					(reference "X1")
 					(unit 1)
 				)
 			)
@@ -14912,6 +16157,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/bourns-inc/MH1608-221Y/2563313"
+			(at 121.92 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "MH1608-221Y"
+			(at 121.92 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
+			(at 121.92 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15061,92 +16333,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 83.82 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ebad34a1-21f1-41cf-81ae-9d220111b118")
-		(property "Reference" "C4"
-			(at 86.995 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 86.995 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 84.7852 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 83.82 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "voltage" "6.3v"
-			(at 88.9 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "rating" "X5R"
-			(at 83.82 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "89a13763-af31-4858-8446-19a71cf080be")
-		)
-		(pin "2"
-			(uuid "7a5522cd-d802-4352-b7b6-e2797156c305")
-		)
-		(instances
-			(project "stm32-tutorial-project"
-				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 250.19 69.85 0)
 		(unit 1)
@@ -15174,7 +16360,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 248.412 69.85 90)
 			(effects
 				(font
@@ -15183,7 +16369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 250.19 69.85 0)
 			(effects
 				(font
@@ -15193,6 +16379,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 250.19 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/yageo/RC0603FR-074K7L/727212"
+			(at 250.19 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603FR-074K7L"
+			(at 250.19 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
 			(at 250.19 69.85 0)
 			(effects
 				(font
@@ -15217,11 +16430,124 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 105.41 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "efe1fbf1-052e-48cd-9cb6-df391c11e05e")
+		(property "Reference" "C6"
+			(at 108.585 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 108.585 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 106.3752 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf"
+			(at 105.41 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 105.41 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "voltage" "6.3v"
+			(at 110.49 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "rating" "X5R"
+			(at 105.41 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/kemet/C0603C104K9PACTU/8572410"
+			(at 105.41 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C0603C104K9PACTU"
+			(at 105.41 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
+			(at 105.41 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a47c8c69-574f-402e-927e-a5452f2811cb")
+		)
+		(pin "2"
+			(uuid "10378d4c-36cf-4182-89d2-6e37e095d6c8")
+		)
+		(instances
+			(project "stm32-tutorial-project"
+				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 257.175 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f256e36b-d0e6-4e6e-91e9-d26849e5a79e")
@@ -15262,6 +16588,33 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 257.175 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier_link" ""
+			(at 257.175 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 257.175 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
 			(at 257.175 78.74 0)
 			(effects
 				(font
@@ -15353,7 +16706,7 @@
 		(at 269.24 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -15393,6 +16746,33 @@
 			)
 		)
 		(property "Description" "Jumper, 3-pole, both open"
+			(at 269.24 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier_link" ""
+			(at 269.24 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 269.24 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
 			(at 269.24 58.42 0)
 			(effects
 				(font
@@ -15512,7 +16892,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 240.792 69.85 90)
 			(effects
 				(font
@@ -15521,7 +16901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 242.57 69.85 0)
 			(effects
 				(font
@@ -15531,6 +16911,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 242.57 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/yageo/RC0603FR-074K7L/727212"
+			(at 242.57 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603FR-074K7L"
+			(at 242.57 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Votlage" ""
 			(at 242.57 69.85 0)
 			(effects
 				(font
@@ -15549,92 +16956,6 @@
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 95.25 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fc0c4c36-eca3-4d8b-ba36-1c4025dbbe61")
-		(property "Reference" "C5"
-			(at 98.425 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 98.425 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.2152 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 95.25 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "voltage" "6.3v"
-			(at 100.33 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "rating" "X5R"
-			(at 95.25 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c0e0e23f-d28b-4a5c-9ebf-f608cfbe862a")
-		)
-		(pin "2"
-			(uuid "62c6e01f-f65f-4584-a358-bcd858f3f3c2")
-		)
-		(instances
-			(project "stm32-tutorial-project"
-				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b"
-					(reference "C5")
 					(unit 1)
 				)
 			)
