@@ -4,7 +4,7 @@
 a cool table showing the workflow of all the kicad projects.
 | project_name | DRC | ERC |
 | ------------ | --- | --- |
-| stm32-tutorial-project | [❌](https://github.com/CanSource/STM32G4-tutorial-project/actions/runs/14261630458/attempts/1#summary-39974357326)| [❌](https://github.com/CanSource/STM32G4-tutorial-project/actions/runs/14261630458/attempts/1#summary-39974357340) | 
+| stm32-tutorial-project | [❌](https://github.com/CanSource/STM32G4-tutorial-project/actions/runs/14278468614/attempts/1#summary-40025008599)| [❌](https://github.com/CanSource/STM32G4-tutorial-project/actions/runs/14278468614/attempts/1#summary-40025008609) | 
 
 for a quick guide check [project setup](#project-setup)
 
