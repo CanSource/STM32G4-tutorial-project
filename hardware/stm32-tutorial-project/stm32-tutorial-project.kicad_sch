@@ -5898,6 +5898,12 @@
 		(uuid "fe70839b-a25f-4b02-b874-3608230793c4")
 	)
 	(junction
+		(at 217.17 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "088a8655-e8db-419a-a05d-a20d192908fd")
+	)
+	(junction
 		(at 137.16 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5976,16 +5982,16 @@
 		(uuid "48ccd243-bbd5-4e48-9275-816f6c13e3fb")
 	)
 	(junction
+		(at 198.12 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d76f3f7-ba68-413e-b436-2d8463e64005")
+	)
+	(junction
 		(at 54.61 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5abff205-6c03-44bf-99a4-5d548d8b3ec3")
-	)
-	(junction
-		(at 198.12 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e2000bd-2646-4b8a-9aee-ccb6aa3a4833")
 	)
 	(junction
 		(at 130.81 45.72)
@@ -6028,12 +6034,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ac9591e-d4ba-4d91-a645-e369ea35861f")
-	)
-	(junction
-		(at 217.17 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7b1c4ded-3bb3-4401-8f0a-23349b9e0650")
 	)
 	(junction
 		(at 73.66 45.72)
@@ -6124,16 +6124,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "edaa4fdf-859b-404f-a14f-9085b12aa33b")
-	)
-	(wire
-		(pts
-			(xy 176.53 116.84) (xy 198.12 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0098f64c-5c0c-414a-ae9e-8902571ca35d")
 	)
 	(wire
 		(pts
@@ -6397,16 +6387,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 118.11) (xy 198.12 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25b1c8fd-2ccf-47d2-a926-e70d06df58e1")
-	)
-	(wire
-		(pts
 			(xy 20.32 187.96) (xy 31.75 187.96)
 		)
 		(stroke
@@ -6594,16 +6574,6 @@
 			(type default)
 		)
 		(uuid "383a478a-a779-45fb-a6db-c176b4dc8f43")
-	)
-	(wire
-		(pts
-			(xy 217.17 125.73) (xy 217.17 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "399767f6-4a57-4f34-834b-3f4cf5192ed2")
 	)
 	(wire
 		(pts
@@ -6987,6 +6957,26 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 100.33) (xy 217.17 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68f8bb37-6e95-4dbd-a2a9-8df927ff9e99")
+	)
+	(wire
+		(pts
+			(xy 217.17 95.25) (xy 217.17 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ab5f62d-4525-4cdc-9e82-73fb6721dd21")
+	)
+	(wire
+		(pts
 			(xy 78.74 88.9) (xy 99.06 88.9)
 		)
 		(stroke
@@ -7027,7 +7017,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 116.84) (xy 201.93 116.84)
+			(xy 176.53 105.41) (xy 198.12 105.41)
 		)
 		(stroke
 			(width 0)
@@ -7144,16 +7134,6 @@
 			(type default)
 		)
 		(uuid "8744de6e-bd38-4b5a-b812-fbafa615f8c5")
-	)
-	(wire
-		(pts
-			(xy 198.12 125.73) (xy 217.17 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "887a231d-1f4e-4309-8ee4-e96222145d44")
 	)
 	(wire
 		(pts
@@ -7397,6 +7377,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 104.14) (xy 198.12 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2ffff31-7dc8-4fa1-821d-6e33ebaee33c")
+	)
+	(wire
+		(pts
 			(xy 204.47 44.45) (xy 212.09 44.45)
 		)
 		(stroke
@@ -7574,6 +7564,16 @@
 			(type default)
 		)
 		(uuid "c2d6da9c-8191-4d4f-9822-2fad76cfd622")
+	)
+	(wire
+		(pts
+			(xy 198.12 96.52) (xy 217.17 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c58ca213-3472-44b2-9e17-6eea93d83f4d")
 	)
 	(wire
 		(pts
@@ -7967,6 +7967,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 105.41) (xy 201.93 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9dec5a3-df4a-4066-9b42-0daa86125a26")
+	)
+	(wire
+		(pts
 			(xy 31.75 177.8) (xy 49.53 177.8)
 		)
 		(stroke
@@ -8066,7 +8076,7 @@
 		(uuid "0fe10b16-864d-47ff-9a7a-6b6427a3dc49")
 	)
 	(label "GREEN_DEBUG_LED"
-		(at 176.53 116.84 0)
+		(at 176.53 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9058,7 +9068,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 217.17 96.52 0)
+		(at 217.17 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9067,7 +9077,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a6a508a-5ae6-4a92-a1be-00780194e206")
 		(property "Reference" "#PWR040"
-			(at 217.17 100.33 0)
+			(at 217.17 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9076,7 +9086,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 217.17 91.44 0)
+			(at 217.17 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9084,7 +9094,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 96.52 0)
+			(at 217.17 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9093,7 +9103,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 96.52 0)
+			(at 217.17 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9102,7 +9112,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 217.17 96.52 0)
+			(at 217.17 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13218,7 +13228,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 217.17 107.95 0)
+		(at 217.17 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13226,7 +13236,7 @@
 		(dnp no)
 		(uuid "8882ed52-ff7f-4047-ab67-289e30b0393a")
 		(property "Reference" "R15"
-			(at 219.075 107.315 0)
+			(at 219.075 121.285 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13235,7 +13245,7 @@
 			)
 		)
 		(property "Value" "500"
-			(at 219.075 109.855 0)
+			(at 219.075 123.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13244,7 +13254,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 215.392 107.95 90)
+			(at 215.392 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13253,7 +13263,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
-			(at 217.17 107.95 0)
+			(at 217.17 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13262,7 +13272,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 217.17 107.95 0)
+			(at 217.17 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13271,7 +13281,7 @@
 			)
 		)
 		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/yageo/RT0603BRD07500RL/17019950"
-			(at 217.17 107.95 0)
+			(at 217.17 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13280,7 +13290,7 @@
 			)
 		)
 		(property "Part Number" "RT0603BRD07500RL"
-			(at 217.17 107.95 0)
+			(at 217.17 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13289,7 +13299,7 @@
 			)
 		)
 		(property "Votlage" ""
-			(at 217.17 107.95 0)
+			(at 217.17 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13943,7 +13953,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 217.17 100.33 90)
+		(at 217.17 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13951,7 +13961,7 @@
 		(dnp no)
 		(uuid "984cb561-90b2-4f83-b7e3-dc4ffaea0a35")
 		(property "Reference" "D10"
-			(at 220.345 100.33 90)
+			(at 220.345 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13960,7 +13970,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 220.345 102.235 90)
+			(at 220.345 116.205 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13969,7 +13979,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 217.17 100.33 0)
+			(at 217.17 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13978,7 +13988,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060VS75000.pdf"
-			(at 217.17 100.33 0)
+			(at 217.17 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13987,7 +13997,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 217.17 100.33 0)
+			(at 217.17 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13996,7 +14006,7 @@
 			)
 		)
 		(property "Colour" "Green"
-			(at 223.52 104.14 90)
+			(at 223.52 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14004,7 +14014,7 @@
 			)
 		)
 		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/w%C3%BCrth-elektronik/150060VS75000/4489906"
-			(at 217.17 100.33 0)
+			(at 217.17 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14013,7 +14023,7 @@
 			)
 		)
 		(property "Part Number" "150060VS75000"
-			(at 217.17 100.33 0)
+			(at 217.17 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14022,7 +14032,7 @@
 			)
 		)
 		(property "Votlage" ""
-			(at 217.17 100.33 0)
+			(at 217.17 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14357,7 +14367,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 205.74 116.84 90)
+		(at 205.74 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14365,7 +14375,7 @@
 		(dnp no)
 		(uuid "9fa6be2e-6f23-40be-9701-ac63ebfb8e5e")
 		(property "Reference" "R14"
-			(at 207.645 114.3 90)
+			(at 207.645 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14374,7 +14384,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 207.645 111.76 90)
+			(at 207.645 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14383,7 +14393,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 205.74 118.618 90)
+			(at 205.74 107.188 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14392,7 +14402,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 205.74 116.84 0)
+			(at 205.74 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14401,7 +14411,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 205.74 116.84 0)
+			(at 205.74 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14410,7 +14420,7 @@
 			)
 		)
 		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/yageo/RC0603FR-071KL/726880"
-			(at 205.74 116.84 0)
+			(at 205.74 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14419,7 +14429,7 @@
 			)
 		)
 		(property "Part Number" "RC0603FR-0710KL"
-			(at 205.74 116.84 0)
+			(at 205.74 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14428,7 +14438,7 @@
 			)
 		)
 		(property "Votlage" ""
-			(at 205.74 116.84 0)
+			(at 205.74 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15260,7 +15270,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 198.12 121.92 180)
+		(at 198.12 100.33 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15268,7 +15278,7 @@
 		(dnp no)
 		(uuid "bc19bf6b-bdc7-403d-bffe-9211bf9314a1")
 		(property "Reference" "R16"
-			(at 195.58 120.015 90)
+			(at 195.58 98.425 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15277,7 +15287,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 193.04 120.015 90)
+			(at 193.04 98.425 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15286,7 +15296,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 199.898 121.92 90)
+			(at 199.898 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15295,7 +15305,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 198.12 121.92 0)
+			(at 198.12 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15304,7 +15314,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 198.12 121.92 0)
+			(at 198.12 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15313,7 +15323,7 @@
 			)
 		)
 		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/yageo/RC0603FR-071KL/726880"
-			(at 198.12 121.92 0)
+			(at 198.12 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15322,7 +15332,7 @@
 			)
 		)
 		(property "Part Number" "RC0603FR-0710KL"
-			(at 198.12 121.92 0)
+			(at 198.12 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15331,7 +15341,7 @@
 			)
 		)
 		(property "Votlage" ""
-			(at 198.12 121.92 0)
+			(at 198.12 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15864,7 +15874,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:PNP")
-		(at 214.63 116.84 0)
+		(at 214.63 105.41 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15873,7 +15883,7 @@
 		(dnp no)
 		(uuid "d87b6f0d-8fa8-4b16-8f6e-bf3b181022e7")
 		(property "Reference" "Q3"
-			(at 219.71 118.1101 0)
+			(at 219.71 106.6801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15882,7 +15892,7 @@
 			)
 		)
 		(property "Value" "PNP"
-			(at 219.71 115.5701 0)
+			(at 219.71 104.1401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15891,7 +15901,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23_HandSoldering"
-			(at 250.19 116.84 0)
+			(at 250.19 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15900,7 +15910,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 250.19 116.84 0)
+			(at 250.19 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15909,7 +15919,7 @@
 			)
 		)
 		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-			(at 214.63 116.84 0)
+			(at 214.63 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15918,7 +15928,7 @@
 			)
 		)
 		(property "Sim.Device" "PNP"
-			(at 214.63 116.84 0)
+			(at 214.63 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15927,7 +15937,7 @@
 			)
 		)
 		(property "Sim.Type" "GUMMELPOON"
-			(at 214.63 116.84 0)
+			(at 214.63 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15936,7 +15946,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 214.63 116.84 0)
+			(at 214.63 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15945,7 +15955,7 @@
 			)
 		)
 		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/diotec-semiconductor/MMBT3906/13163222"
-			(at 214.63 116.84 0)
+			(at 214.63 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15954,7 +15964,7 @@
 			)
 		)
 		(property "Part Number" "MMBT3906"
-			(at 214.63 116.84 0)
+			(at 214.63 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15963,7 +15973,7 @@
 			)
 		)
 		(property "Votlage" ""
-			(at 214.63 116.84 0)
+			(at 214.63 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
