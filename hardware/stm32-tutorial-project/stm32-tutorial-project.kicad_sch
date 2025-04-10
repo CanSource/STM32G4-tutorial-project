@@ -10339,7 +10339,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "4ms_Connector:Pins_1x04_2.54mm_TH_SWD"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 274.32 69.215 0)
 			(effects
 				(font
@@ -15682,7 +15682,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "4ms_Connector:Pins_1x04_2.54mm_TH_SWD"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 215.9 64.135 0)
 			(effects
 				(font
