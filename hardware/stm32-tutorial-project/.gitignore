@@ -1,0 +1,6 @@
+# KiCAD temp files
+**/fp-info-cache
+**/*-backups/*
+*.zip
+*.lck
+*.kicad_prl
