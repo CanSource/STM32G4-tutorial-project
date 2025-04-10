@@ -2951,6 +2951,12 @@
 		(uuid "2bf55a9c-a339-41d2-9d74-4fd64f6012f6")
 	)
 	(junction
+		(at 82.55 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f8e36e1-f4b0-4cc0-b57b-7b1f5941cb0b")
+	)
+	(junction
 		(at 87.63 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2975,10 +2981,10 @@
 		(uuid "67a0def4-bdce-4ae0-8f33-a6f5e3ce3c1c")
 	)
 	(junction
-		(at 82.55 93.98)
+		(at 85.09 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "744cfc13-ff55-44ef-8d58-0310b057d5b8")
+		(uuid "7899b49e-7bf2-4581-bc59-4404c8062cbf")
 	)
 	(junction
 		(at 151.13 101.6)
@@ -3003,12 +3009,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ea4f9ea-55c0-46b4-8b0c-c38ef48e4d87")
-	)
-	(junction
-		(at 85.09 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "96ef540a-c9db-434f-84f3-164b84a7daf3")
 	)
 	(junction
 		(at 228.6 90.17)
@@ -3058,16 +3058,6 @@
 		(color 0 0 0 0)
 		(uuid "efae3970-38bb-41ab-9fe3-6d3ca4f1ed6e")
 	)
-	(wire
-		(pts
-			(xy 82.55 93.98) (xy 82.55 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00965b40-d233-4910-8557-36964f7f8169")
-	)
 	(polyline
 		(pts
 			(xy 182.88 68.58) (xy 182.88 115.57)
@@ -3087,16 +3077,6 @@
 			(type default)
 		)
 		(uuid "04bdce94-1557-4e9d-8045-83142e245316")
-	)
-	(wire
-		(pts
-			(xy 85.09 88.9) (xy 85.09 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08e50c31-a59f-41c7-9468-805f2cb37a18")
 	)
 	(wire
 		(pts
@@ -3130,6 +3110,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 93.98) (xy 85.09 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16d426ca-ba84-4022-bab6-50ea1252eab1")
+	)
+	(wire
+		(pts
 			(xy 74.93 88.9) (xy 74.93 90.17)
 		)
 		(stroke
@@ -3137,6 +3127,16 @@
 			(type default)
 		)
 		(uuid "1b2e983a-d02b-482d-a815-91b4857484b4")
+	)
+	(wire
+		(pts
+			(xy 85.09 93.98) (xy 101.6 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b4566bc-adcd-4727-b030-db58ca4ea7ae")
 	)
 	(wire
 		(pts
@@ -3210,16 +3210,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 93.98) (xy 101.6 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "422f4a6e-61b7-499a-b8f0-adb568b737b2")
-	)
-	(wire
-		(pts
 			(xy 74.93 93.98) (xy 74.93 95.25)
 		)
 		(stroke
@@ -3280,7 +3270,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 88.9) (xy 85.09 88.9)
+			(xy 74.93 88.9) (xy 82.55 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3320,7 +3310,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 93.98) (xy 82.55 93.98)
+			(xy 74.93 93.98) (xy 85.09 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3370,16 +3360,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 88.9) (xy 101.6 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b635c33-3f45-46ed-b92f-4f307cdbbd9f")
-	)
-	(wire
-		(pts
 			(xy 113.03 80.01) (xy 113.03 86.36)
 		)
 		(stroke
@@ -3387,6 +3367,16 @@
 			(type default)
 		)
 		(uuid "7c8c04c5-86d1-4d40-a693-e21d33e4add4")
+	)
+	(wire
+		(pts
+			(xy 82.55 88.9) (xy 101.6 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83d17e8a-28a8-49cd-b47c-e23781bd6229")
 	)
 	(wire
 		(pts
@@ -3497,6 +3487,16 @@
 			(type default)
 		)
 		(uuid "a868a667-2931-40f8-a4c4-b7f8f5f65d03")
+	)
+	(wire
+		(pts
+			(xy 82.55 88.9) (xy 82.55 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa8a9159-475d-4760-8b19-bf882dece524")
 	)
 	(wire
 		(pts
@@ -3990,7 +3990,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
 			(at 151.13 96.52 0)
 			(effects
 				(font
@@ -4065,7 +4065,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19ec86d7-ea61-4364-afb2-38afc11ee34c")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR043"
 			(at 90.17 82.55 0)
 			(effects
 				(font
@@ -4115,7 +4115,7 @@
 		(instances
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2"
-					(reference "#PWR052")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -4130,7 +4130,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "23876ca8-6dd9-4be5-a834-a8bfc0b6f9ac")
-		(property "Reference" "#FLG010"
+		(property "Reference" "#FLG07"
 			(at 50.165 113.03 0)
 			(effects
 				(font
@@ -4181,7 +4181,7 @@
 		(instances
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2"
-					(reference "#FLG010")
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -4196,7 +4196,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24327caa-9e6a-40ed-9c19-2996c70ec6c6")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR041"
 			(at 59.69 123.19 0)
 			(effects
 				(font
@@ -4246,7 +4246,7 @@
 		(instances
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2"
-					(reference "#PWR023")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -4261,7 +4261,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "253da8a0-d4ba-4a69-bb18-47680cb202cf")
-		(property "Reference" "JP3"
+		(property "Reference" "JP4"
 			(at 163.83 73.025 0)
 			(effects
 				(font
@@ -4277,7 +4277,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 163.83 78.74 0)
 			(effects
 				(font
@@ -4340,7 +4340,7 @@
 		(instances
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2"
-					(reference "JP3")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -4355,7 +4355,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2e34755d-eb34-474e-b4c8-38c0d3a94775")
-		(property "Reference" "D6"
+		(property "Reference" "D12"
 			(at 231.775 96.52 90)
 			(effects
 				(font
@@ -4444,7 +4444,7 @@
 		(instances
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2"
-					(reference "D6")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -4575,7 +4575,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3af1fe03-52d7-46f4-9477-e7aa026e1945")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR047"
 			(at 121.92 100.33 0)
 			(effects
 				(font
@@ -4625,7 +4625,7 @@
 		(instances
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2"
-					(reference "#PWR027")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -4864,7 +4864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "419d2503-ff7f-46a6-b0f3-d9c2e4727a25")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR049"
 			(at 157.48 80.01 0)
 			(effects
 				(font
@@ -4914,7 +4914,7 @@
 		(instances
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2"
-					(reference "#PWR028")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -4929,7 +4929,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42018e3a-890d-442d-b23b-d43148e3ab3c")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG010"
 			(at 242.57 92.075 0)
 			(effects
 				(font
@@ -4980,7 +4980,7 @@
 		(instances
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2"
-					(reference "#FLG01")
+					(reference "#FLG010")
 					(unit 1)
 				)
 			)
@@ -5013,7 +5013,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 187.6552 99.06 0)
 			(effects
 				(font
@@ -5040,7 +5040,7 @@
 				(hide yes)
 			)
 		)
-		(property "voltage" "6.3v"
+		(property "voltage" "16v"
 			(at 191.77 97.79 0)
 			(effects
 				(font
@@ -5057,7 +5057,7 @@
 				(hide yes)
 			)
 		)
-		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/kemet/C0603C106M9PACTU/1950664"
+		(property "supplier_link" "https://www.digikey.co.nz/en/products/detail/kemet/C0805C106K4PACTU/2211785"
 			(at 186.69 95.25 0)
 			(effects
 				(font
@@ -5066,16 +5066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C106M9PACTU"
-			(at 186.69 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Votlage" ""
+		(property "Part Number" "C0805C106K4PACTU"
 			(at 186.69 95.25 0)
 			(effects
 				(font
@@ -5109,7 +5100,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55fe84d6-b28c-4707-8b2f-c4b39cfdafc4")
-		(property "Reference" "D11"
+		(property "Reference" "D7"
 			(at 93.98 105.4099 0)
 			(effects
 				(font
@@ -5200,7 +5191,7 @@
 		(instances
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2"
-					(reference "D11")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -5215,7 +5206,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "57a8ba9d-669e-4899-b5d9-f0775310751c")
-		(property "Reference" "D3"
+		(property "Reference" "D9"
 			(at 160.02 82.55 0)
 			(effects
 				(font
@@ -5302,7 +5293,7 @@
 		(instances
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2"
-					(reference "D3")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -5317,7 +5308,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5cb770a6-d7b5-421a-9d3d-06d086d24f4b")
-		(property "Reference" "R5"
+		(property "Reference" "R14"
 			(at 55.88 110.49 90)
 			(effects
 				(font
@@ -5396,7 +5387,7 @@
 		(instances
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2"
-					(reference "R5")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -5411,7 +5402,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5ecc5716-dcec-4be6-acc2-41b03f0f11dc")
-		(property "Reference" "JP7"
+		(property "Reference" "JP6"
 			(at 205.74 81.28 0)
 			(effects
 				(font
@@ -5427,7 +5418,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 205.74 90.17 0)
 			(effects
 				(font
@@ -5490,7 +5481,7 @@
 		(instances
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2"
-					(reference "JP7")
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -5505,7 +5496,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67aaac9f-c520-405d-98fb-593a2f2bf3af")
-		(property "Reference" "#FLG09"
+		(property "Reference" "#FLG08"
 			(at 102.235 68.58 0)
 			(effects
 				(font
@@ -5556,7 +5547,7 @@
 		(instances
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2"
-					(reference "#FLG09")
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)
@@ -5572,7 +5563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bd1fb40-af9e-4567-bcb2-5e206ff825c9")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR044"
 			(at 100.33 69.85 0)
 			(effects
 				(font
@@ -5622,7 +5613,7 @@
 		(instances
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2"
-					(reference "#PWR024")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -5637,7 +5628,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6dbc1aee-05b6-411d-8af7-7a6604b372eb")
-		(property "Reference" "R9"
+		(property "Reference" "R18"
 			(at 230.505 103.505 0)
 			(effects
 				(font
@@ -5718,7 +5709,7 @@
 		(instances
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2"
-					(reference "R9")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -5733,7 +5724,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70541c91-df8b-4d7e-a954-d1e5853be54d")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR045"
 			(at 100.33 82.55 0)
 			(effects
 				(font
@@ -5783,7 +5774,7 @@
 		(instances
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2"
-					(reference "#PWR025")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -5799,7 +5790,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cf3e4b3-85a1-412a-aed6-104c7cf08ea2")
-		(property "Reference" "JP6"
+		(property "Reference" "JP7"
 			(at 237.49 83.82 0)
 			(effects
 				(font
@@ -5815,7 +5806,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 237.49 90.17 0)
 			(effects
 				(font
@@ -5878,7 +5869,7 @@
 		(instances
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2"
-					(reference "JP6")
+					(reference "JP7")
 					(unit 1)
 				)
 			)
@@ -5893,7 +5884,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7f5c6dec-8ac2-4afc-ae80-a97c507e80c6")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR057"
 			(at 254 89.535 0)
 			(effects
 				(font
@@ -5943,7 +5934,7 @@
 		(instances
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2"
-					(reference "#PWR055")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -5958,7 +5949,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "87d38d1d-5293-46bc-a699-c83f0075b5c7")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR048"
 			(at 151.13 80.01 0)
 			(effects
 				(font
@@ -6008,7 +5999,7 @@
 		(instances
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2"
-					(reference "#PWR033")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -6023,7 +6014,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c5819be-7ea5-48b5-8e5d-abe7fdd8ce92")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR052"
 			(at 196.85 114.3 0)
 			(effects
 				(font
@@ -6073,7 +6064,7 @@
 		(instances
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2"
-					(reference "#PWR034")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -6088,7 +6079,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8cc279e2-0aab-4e0d-8da9-09dfa3657af4")
-		(property "Reference" "D4"
+		(property "Reference" "D10"
 			(at 160.02 96.52 0)
 			(effects
 				(font
@@ -6175,7 +6166,7 @@
 		(instances
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2"
-					(reference "D4")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -6190,7 +6181,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e6f0ab0-756c-4034-96e4-0876edd69b38")
-		(property "Reference" "D12"
+		(property "Reference" "D8"
 			(at 92.71 71.1199 90)
 			(effects
 				(font
@@ -6280,7 +6271,7 @@
 		(instances
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2"
-					(reference "D12")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -6296,7 +6287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91924d19-7c78-4275-966b-c9404d49b1da")
-		(property "Reference" "J1"
+		(property "Reference" "J6"
 			(at 59.69 67.31 0)
 			(effects
 				(font
@@ -6414,7 +6405,7 @@
 		(instances
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2"
-					(reference "J1")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -6429,7 +6420,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c199cd5-32c0-4aec-b2e6-bb417dc10ba8")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR042"
 			(at 85.09 118.11 0)
 			(effects
 				(font
@@ -6479,7 +6470,7 @@
 		(instances
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2"
-					(reference "#PWR051")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -6495,7 +6486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9de97580-69ee-4ed9-a971-dcf12666fc3f")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR055"
 			(at 247.65 90.17 0)
 			(effects
 				(font
@@ -6545,7 +6536,7 @@
 		(instances
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2"
-					(reference "#PWR032")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -6560,7 +6551,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a38fed9f-4606-4bc2-a019-e92341e616eb")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR054"
 			(at 228.6 114.3 0)
 			(effects
 				(font
@@ -6610,7 +6601,7 @@
 		(instances
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2"
-					(reference "#PWR035")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -6626,7 +6617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab1cc0b2-4628-479f-be8e-a52e9cc44793")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR040"
 			(at 52.07 123.19 0)
 			(effects
 				(font
@@ -6676,7 +6667,7 @@
 		(instances
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2"
-					(reference "#PWR022")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -6691,7 +6682,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ab4fda16-a938-434a-bdbb-b8c04e03a493")
-		(property "Reference" "D5"
+		(property "Reference" "D11"
 			(at 200.025 96.52 90)
 			(effects
 				(font
@@ -6780,7 +6771,7 @@
 		(instances
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2"
-					(reference "D5")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -6796,7 +6787,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "adb87bf0-fe59-4c94-ae1a-e365347b6a0c")
-		(property "Reference" "R7"
+		(property "Reference" "R16"
 			(at 124.46 88.8999 0)
 			(effects
 				(font
@@ -6877,7 +6868,7 @@
 		(instances
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2"
-					(reference "R7")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -6911,7 +6902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
 			(at 95.25 68.58 0)
 			(effects
 				(font
@@ -6986,7 +6977,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c31e4ee0-b683-48c1-ab7f-a4f5612ec47c")
-		(property "Reference" "JP2"
+		(property "Reference" "JP5"
 			(at 155.575 104.775 0)
 			(effects
 				(font
@@ -7002,7 +6993,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 163.83 105.41 0)
 			(effects
 				(font
@@ -7065,7 +7056,7 @@
 		(instances
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2"
-					(reference "JP2")
+					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -7081,7 +7072,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cd344a00-3af3-4b42-a243-efe21f6de163")
-		(property "Reference" "R6"
+		(property "Reference" "R15"
 			(at 115.57 88.8999 0)
 			(effects
 				(font
@@ -7162,7 +7153,7 @@
 		(instances
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2"
-					(reference "R6")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -7177,7 +7168,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4c45e0d-239d-4ba9-a34c-931da6716540")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR050"
 			(at 186.69 86.36 0)
 			(effects
 				(font
@@ -7227,7 +7218,7 @@
 		(instances
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2"
-					(reference "#PWR043")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -7243,7 +7234,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e370868d-bf8c-4bf1-9e93-e29b2748facd")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR051"
 			(at 186.69 105.41 0)
 			(effects
 				(font
@@ -7293,7 +7284,7 @@
 		(instances
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2"
-					(reference "#PWR030")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -7308,7 +7299,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f07f5b39-3a5f-466d-92e2-247415711362")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR046"
 			(at 113.03 100.33 0)
 			(effects
 				(font
@@ -7358,7 +7349,7 @@
 		(instances
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2"
-					(reference "#PWR026")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -7373,7 +7364,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f77e507d-2bb5-4c10-87b0-d9e65278a072")
-		(property "Reference" "R8"
+		(property "Reference" "R17"
 			(at 198.755 103.505 0)
 			(effects
 				(font
@@ -7454,7 +7445,7 @@
 		(instances
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2"
-					(reference "R8")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -7470,7 +7461,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc74728b-6c46-4b79-a2e2-dfda47482c5e")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR053"
 			(at 218.44 104.14 0)
 			(effects
 				(font
@@ -7520,7 +7511,7 @@
 		(instances
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2"
-					(reference "#PWR029")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -7535,7 +7526,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fdee8083-18e4-49d3-89ee-78202d7a019b")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG09"
 			(at 210.82 92.075 0)
 			(effects
 				(font
@@ -7586,7 +7577,7 @@
 		(instances
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2"
-					(reference "#FLG02")
+					(reference "#FLG09")
 					(unit 1)
 				)
 			)
@@ -7602,7 +7593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe83e04b-1b5e-44c9-8ec6-47ee324548f9")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR056"
 			(at 247.65 104.14 0)
 			(effects
 				(font
@@ -7652,7 +7643,7 @@
 		(instances
 			(project "stm32-tutorial-project"
 				(path "/d669673b-e709-4a82-ac8c-4eb3d8c60d0b/9eddff54-b9b7-4baa-9bb1-8d51c91aafd2"
-					(reference "#PWR031")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
