@@ -50,7 +50,7 @@
 "R17","10k","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","1",""
 "R18","4.7k","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","1",""
 "R19","4.7k","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","1",""
-"R_EXT?","0","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","1",""
+"R_EXT1","0","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","1",""
 "SW1","SW_Push","Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS","1",""
 "SW2","SW_Push_SPDT","Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q","1",""
 "U1","STM32G431CBTx","Package_QFP:LQFP-48_7x7mm_P0.5mm","1",""

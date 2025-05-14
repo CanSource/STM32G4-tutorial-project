@@ -1,6 +1,6 @@
 # 📄 BOM for stm32-tutorial-project_bill_of_material 📄
 
-report created at 04:37:55.629529 on 05-04-2025.
+report created at 02:53:02.423787 on 14-05-2025.
 
 stm32-tutorial-project_bill_of_material has a total of 57 parts with a cost of $0.
 
@@ -57,7 +57,7 @@ stm32-tutorial-project_bill_of_material has a total of 57 parts with a cost of $
 | R17 | 10k | 1 | Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | $0 |
 | R18 | 4.7k | 1 | Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | $0 |
 | R19 | 4.7k | 1 | Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | $0 |
-| R_EXT? | 0 | 1 | Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | $0 |
+| R_EXT1 | 0 | 1 | Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | $0 |
 | SW1 | SW_Push | 1 | Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS | $0 |
 | SW2 | SW_Push_SPDT | 1 | Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q | $0 |
 | U1 | STM32G431CBTx | 1 | Package_QFP:LQFP-48_7x7mm_P0.5mm | $0 |
