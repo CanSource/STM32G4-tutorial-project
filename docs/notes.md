@@ -155,6 +155,7 @@
       14 pin version 
       hides unused pins 
       cc_x used for power negotiation
+      the dbcc_x are just 5.1k pull downs and assit with USBPD support
 
       forgot in hash but cc resistors should be DNP
       
