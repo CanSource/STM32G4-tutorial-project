@@ -1,6 +1,6 @@
 # 📄 BOM for stm32-tutorial-project_bill_of_material 📄
 
-report created at 02:53:02.423787 on 14-05-2025.
+report created at 05:57:16.573981 on 11-06-2025.
 
 stm32-tutorial-project_bill_of_material has a total of 57 parts with a cost of $0.
 
@@ -30,7 +30,7 @@ stm32-tutorial-project_bill_of_material has a total of 57 parts with a cost of $
 | D8 | LED | 1 | Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder | $0 |
 | D9 | LED | 1 | Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder | $0 |
 | D10 | LED | 1 | Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder | $0 |
-| D11 | SP0504BAHTG | 1 | Package_TO_SOT_SMD:SOT-23-5 | $0 |
+| D11 | TVS | 1 | Package_TO_SOT_SMD:SOT-23-5 | $0 |
 | D12 | PTVS7V5Z1USK | 1 | Diode_SMD:Nexperia_DSN1608-2_1.6x0.8mm | $0 |
 | F1 | Fuse | 1 | Fuse:Fuse_0805_2012Metric | $0 |
 | FB1 | 220 OHM | 1 | Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder | $0 |

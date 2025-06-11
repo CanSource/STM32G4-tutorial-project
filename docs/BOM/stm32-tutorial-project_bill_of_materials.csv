@@ -23,7 +23,7 @@
 "D8","LED","Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder","1",""
 "D9","LED","Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder","1",""
 "D10","LED","Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder","1",""
-"D11","SP0504BAHTG","Package_TO_SOT_SMD:SOT-23-5","1",""
+"D11","TVS","Package_TO_SOT_SMD:SOT-23-5","1",""
 "D12","PTVS7V5Z1USK","Diode_SMD:Nexperia_DSN1608-2_1.6x0.8mm","1",""
 "F1","Fuse","Fuse:Fuse_0805_2012Metric","1",""
 "FB1","220 OHM","Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder","1",""
